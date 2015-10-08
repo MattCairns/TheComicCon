@@ -1,4 +1,4 @@
-# TheComicCon
+# The Comic Con
 
 A game for CSC167
 
