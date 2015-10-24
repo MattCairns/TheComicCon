@@ -8,6 +8,30 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//DECLARATIONS
+global.JUMP_COUNTER = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,14 +49,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!place_meeting(x, y, oWall)){    //if there is a wall directly below the player
-    y ++;   //move down 1 pixel
+            <string>//DOWN
+if(!place_meeting(x, y, oWall) &amp;&amp; global.JUMP_COUNTER == 0){    //if there is a wall directly below the player
+    y = y + 5;   //move down 1 pixel
 }
 
-keyRight = keyboard_check(vk_right);    //returns 1 if right key is pressed
-keyLeft = -keyboard_check(vk_left);     //returns -1 if left key is pressed
+//LEFT AND RIGHT
+keyRight = keyboard_check(vk_right) * 5;    //returns 1 if right key is pressed
+keyLeft = -keyboard_check(vk_left) * 5;     //returns -1 if left key is pressed
 move = keyRight + keyLeft;  //determines direction, -1 for left, 0 for nono, 1 for right
 x += move;  //move in whichever direction horizontally
+
+//UP
+if(keyboard_check(vk_up) &amp;&amp; place_meeting(x, y, oWall)){    //if up is pressed and the player is on the floor
+    global.JUMP_COUNTER = 10;   //set the global var to 10
+}
+if(global.JUMP_COUNTER != 0){   //if there is still jumping to do
+    y = y - 5;  //move the player up 1 increment
+    global.JUMP_COUNTER --; //decrease the glabol var by 1
+}
 </string>
           </argument>
         </arguments>
