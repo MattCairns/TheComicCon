@@ -49,19 +49,50 @@ global.JUMP_COUNTER = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//DOWN
+            <string>global.deltaTime = 1
+
+deceleration = 0.35 * global.deltaTime
+maximumSpeed = 7.4
+acceleration = 0.9
+gravityScale = 0.78
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>key_right = keyboard_check(vk_right);
+key_left = -keyboard_check(vk_left);
+key_jump = keyboard_check_pressed(vk_space);
+
+//DOWN
 if(!place_meeting(x, y, oWall) &amp;&amp; global.JUMP_COUNTER == 0){    //if there is a wall directly below the player
     y = y + 5;   //move down 1 pixel
 }
 
 //LEFT AND RIGHT
-keyRight = keyboard_check(vk_right) * 5;    //returns 1 if right key is pressed
-keyLeft = -keyboard_check(vk_left) * 5;     //returns -1 if left key is pressed
+keyRight = key_right * 5;    //returns 1 if right key is pressed
+keyLeft = key_left * 5;     //returns -1 if left key is pressed
 move = keyRight + keyLeft;  //determines direction, -1 for left, 0 for nono, 1 for right
 x += move;  //move in whichever direction horizontally
 
 //UP
-if(keyboard_check(vk_up) &amp;&amp; place_meeting(x, y, oWall)){    //if up is pressed and the player is on the floor
+if(key_jump &amp;&amp; place_meeting(x, y, oWall)){    //if up is pressed and the player is on the floor
     global.JUMP_COUNTER = 10;   //set the global var to 10
 }
 if(global.JUMP_COUNTER != 0){   //if there is still jumping to do
