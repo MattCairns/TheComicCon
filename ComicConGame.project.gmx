@@ -14,8 +14,6 @@
   <objects name="objects">
     <object>objects\oWall</object>
     <object>objects\oPlayer</object>
-    <object>objects\oStaticParent</object>
-    <object>objects\oDynamicParent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
