@@ -1,7 +1,8 @@
 scriptGetInputs();
 
 sprite_index = sPlayerStanding;
-if(keyLeft or keyRight){
+
+if(keyLeft xor keyRight){   //non-inclusive because we do not want to run if both keys are pressed
     state = state.run;
 }
 

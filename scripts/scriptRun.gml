@@ -1,25 +1,22 @@
 scriptGetInputs();
 
 sprite_index = sPlayerRunning;
-if(hspeed == 0){
+if(hspeed == 0 && !(keyLeft xor keyRight)){ //stops stand animation if switching direction
     state = state.stand;
 }
 
-if(keyJump && place_meeting(x,y + 1, oWall)) {
-    show_debug_message("jumP");
+if(keyJump && place_meeting(x,y + 1, oWall)) {  //jump key pressed, player on the floor
     state = state.jump;
     
 }
 
 //LEFT AND RIGHT
-move = keyRight + keyLeft;  //determines direction and multiplies by move speed
-show_debug_message(move)
-if(move == -1){   //if movement is to the left
+move = keyRight + -keyLeft;  //determines direction and multiplies by move speed
+if(move < 0){   //if movement is to the left
     image_xscale = -1;  //look left
     if(hspeed > -8){
-        hspeed -= horizontalAcceleration;
+        hspeed -= horizontalAcceleration;   //accelerate movement if not too fast
     }
-    show_debug_message("LEFT")
 }else if(move > 0){ //if movement is to the right
     image_xscale = 1;   //look right
     if(hspeed < 8){
