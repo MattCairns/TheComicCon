@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///DECLARATIONS
-global.JUMP_COUNTER = 0;
+
 </string>
           </argument>
         </arguments>
@@ -49,10 +49,10 @@ global.JUMP_COUNTER = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///initialization code
-keyRight = keyboard_check(vk_right);
-keyLeft = -keyboard_check(vk_left);
-keyJump = keyboard_check_pressed(vk_space);
+            <string>///Initialization code
+keyRight = keyboard_check(vk_right);    //1 if right key is pressed
+keyLeft = -keyboard_check(vk_left);     //1 if left key is pressed
+keyJump = keyboard_check_pressed(vk_space); //1 if space key is pressed
 
 moveSpeed = 5;
 jumpSpeed = 15;
@@ -80,22 +80,27 @@ jumpSpeed = 15;
             <string>///Movement code
 
 //if player is in air then pull them down with gravity.
-if place_free(x, y + 1) {
-    gravity = 0.8;
-} else {
+if(place_free(x, (y + vspeed))){    //if y coord for next step is free
+    gravity = 1;  
+}else{
     //When player hits ground set velocities to 0
-    gravity = 0;    
-    vspeed = 0;
+    move_contact_solid(270, 0); //moves the character the remaining distance to the ground
+    gravity = 0;
+    vspeed = 0; //stops player movement
 }
 
 //If key jump is pressed and player is standing on the ground then set velocity
-if keyJump &amp;&amp; place_meeting(x,y+1, oWall) {
-    vspeed = -jumpSpeed;
+if(keyJump &amp;&amp; place_meeting(x,y + 1, oWall)){   //if space is pressed and player is on the ground
+    vspeed = -jumpSpeed; //sets the vertical speed to jumpSpeed upwards
 }
 
-    
 //LEFT AND RIGHT
-move = (keyRight + keyLeft)*moveSpeed;  //determines direction, -1 for left, 0 for nono, 1 for right
+move = (keyRight + keyLeft)*moveSpeed;  //determines direction and multiplies by move speed
+if(move &lt; 0){   //if movement is to the left
+    image_xscale = -1;  //look left
+}else if(move &gt; 0){ //if movement is to the right
+    image_xscale = 1;   //look right
+}
 x += move;  //move in whichever direction horizontally
 
 
