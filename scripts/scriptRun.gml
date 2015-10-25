@@ -6,8 +6,7 @@ if(hspeed == 0 && !(keyLeft xor keyRight)){ //stops stand animation if switching
 }
 
 if(keyJump && place_meeting(x,y + 1, oWall)) {  //jump key pressed, player on the floor
-    state = state.jump;
-    
+    state = state.jump;  
 }
 
 //LEFT AND RIGHT

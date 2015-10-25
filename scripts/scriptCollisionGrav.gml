@@ -7,3 +7,8 @@ if(place_free(x, (y + vspeed))){    //if y coord for next step is free
     gravity = 0;
     vspeed = 0; //stops player movement
 }
+
+//if player runs into a block, stop them moving
+if(!place_free((x + hspeed), y-10)){
+    hspeed = 0;
+}

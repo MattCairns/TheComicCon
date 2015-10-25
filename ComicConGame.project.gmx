@@ -9,6 +9,8 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sPlayerStanding</sprite>
     <sprite>sprites\sPlayerRunning</sprite>
+    <sprite>sprites\sPlayerJump</sprite>
+    <sprite>sprites\sPlayerFall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
