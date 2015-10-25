@@ -17,6 +17,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
+    <room>rooms\rMainMenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
