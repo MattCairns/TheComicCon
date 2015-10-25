@@ -9,14 +9,11 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sPlayerStanding</sprite>
     <sprite>sprites\sPlayerRunning</sprite>
-<<<<<<< HEAD
     <sprite>sprites\sPlayerJump</sprite>
     <sprite>sprites\sPlayerFall</sprite>
-=======
     <sprites name="mainMenu">
       <sprite>sprites\sButton</sprite>
     </sprites>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
