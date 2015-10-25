@@ -13,8 +13,11 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scriptGetInputs.gml</script>
     <script>scripts\scriptStand.gml</script>
     <script>scripts\scriptRun.gml</script>
+    <script>scripts\scriptJump.gml</script>
+    <script>scripts\scriptCollisionGrav.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oWall</object>

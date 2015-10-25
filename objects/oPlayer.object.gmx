@@ -51,12 +51,15 @@ image_speed = 0.3;
           <argument>
             <kind>1</kind>
             <string>///Initialization code
+/*
 keyRight = keyboard_check(ord("D")) || keyboard_check(ord("E"));    //the "E" here is so that I can use my keyboard layout to play
 keyLeft = -keyboard_check(ord("A"));
 keyJump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 
 jumpSpeed = 15;
 horizontalAcceleration = 0.2;   //arbitrary number as this made the animation look smooth
+
+*/
 </string>
           </argument>
         </arguments>
@@ -82,8 +85,9 @@ horizontalAcceleration = 0.2;   //arbitrary number as this made the animation lo
 switch(state){
     case state.stand: scriptStand(); break;
     case state.run: scriptRun(); break;
+    case state.jump: scriptJump(); break;
 }
-
+/*
 //if player is in air then pull them down with gravity.
 if(place_free(x, (y + vspeed))){    //if y coord for next step is free
     gravity = 1;  
@@ -120,6 +124,7 @@ if(move &lt; 0){   //if movement is to the left
         hspeed -= 0.4; //slow down rapidly
     }
 }
+*/
 </string>
           </argument>
         </arguments>
