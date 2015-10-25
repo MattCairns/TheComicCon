@@ -54,9 +54,8 @@ keyRight = keyboard_check(ord("D")) || keyboard_check(ord("E"));    //the "E" he
 keyLeft = -keyboard_check(ord("A"));
 keyJump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 
-moveSpeed = 5;
 jumpSpeed = 15;
-
+horizontalAcceleration = 0.2;   //arbitrary number as this made the animation look smooth
 </string>
           </argument>
         </arguments>
@@ -95,17 +94,26 @@ if(keyJump &amp;&amp; place_meeting(x,y + 1, oWall)){   //if space is pressed an
 }
 
 //LEFT AND RIGHT
-move = (keyRight + keyLeft)*moveSpeed;  //determines direction and multiplies by move speed
+move = keyRight + keyLeft;  //determines direction and multiplies by move speed
 if(move &lt; 0){   //if movement is to the left
     image_xscale = -1;  //look left
+    if(hspeed &gt; -8){
+        hspeed -= horizontalAcceleration;
+    }
 }else if(move &gt; 0){ //if movement is to the right
     image_xscale = 1;   //look right
+    if(hspeed &lt; 8){
+        hspeed += horizontalAcceleration;   //accelerate movement if not too fast
+    }
+}else{
+    if((hspeed &lt; 0.2 &amp;&amp; hspeed &gt; 0) || (hspeed &gt; -0.2 &amp;&amp; hspeed &lt; 0)){ //check if below math does not remove all speed
+        hspeed = 0;
+    }else if(hspeed &lt; 0){ //if moving left
+        hspeed += 0.4; //slow down rapidly
+    }else if(hspeed &gt; 0){   //if moving right
+        hspeed -= 0.4; //slow down rapidly
+    }
 }
-x += move;  //move in whichever direction horizontally
-
-
-
-
 </string>
           </argument>
         </arguments>
