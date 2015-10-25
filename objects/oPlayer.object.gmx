@@ -50,9 +50,9 @@
           <argument>
             <kind>1</kind>
             <string>///Initialization code
-keyRight = keyboard_check(ord("D"));    //1 if right key is pressed
-keyLeft = -keyboard_check(ord("A"));     //1 if left key is pressed
-keyJump = keyboard_check_pressed(vk_space); //1 if space key is pressed
+keyRight = keyboard_check(ord("D")) || keyboard_check(ord("E"));    //the "E" here is so that I can use my keyboard layout to play
+keyLeft = -keyboard_check(ord("A"));
+keyJump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 
 moveSpeed = 5;
 jumpSpeed = 15;
