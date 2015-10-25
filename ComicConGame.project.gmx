@@ -9,6 +9,9 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sPlayerStanding</sprite>
     <sprite>sprites\sPlayerRunning</sprite>
+    <sprites name="mainMenu">
+      <sprite>sprites\sButton</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,10 +21,17 @@
     <script>scripts\scriptRun.gml</script>
     <script>scripts\scriptJump.gml</script>
     <script>scripts\scriptCollisionGrav.gml</script>
+    <scripts name="mainMenu">
+      <script>scripts\scriptButton.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\oWall</object>
     <object>objects\oPlayer</object>
+    <object>objects\object2</object>
+    <objects name="mainMenu">
+      <object>objects\oButton</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
