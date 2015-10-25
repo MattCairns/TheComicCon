@@ -20,6 +20,6 @@
   <width>138</width>
   <height>147</height>
   <frames>
-    <frame index="0">images\sPlayer_0.png</frame>
+    <frame index="0">images\sPlayerSkating_0.png</frame>
   </frames>
 </sprite>
