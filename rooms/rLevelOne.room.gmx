@@ -12,7 +12,7 @@
   <showcolour>-1</showcolour>
   <code>enum state{
     stand,
-    skate
+    run
 }</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>

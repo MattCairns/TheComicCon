@@ -7,14 +7,14 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
-    <sprite>sprites\sPlayerSkating</sprite>
     <sprite>sprites\sPlayerStanding</sprite>
+    <sprite>sprites\sPlayerRunning</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scriptStand.gml</script>
-    <script>scripts\scriptSkate.gml</script>
+    <script>scripts\scriptRun.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oWall</object>

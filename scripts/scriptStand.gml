@@ -1,4 +1,4 @@
 sprite_index = sPlayerStanding;
 if(hspeed != 0){
-    state = state.skate;
+    state = state.run;
 }
