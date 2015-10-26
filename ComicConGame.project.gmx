@@ -7,30 +7,36 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
-    <sprite>sprites\sPlayerStanding</sprite>
-    <sprite>sprites\sPlayerRunning</sprite>
-    <sprite>sprites\sPlayerJump</sprite>
-    <sprite>sprites\sPlayerFall</sprite>
     <sprites name="mainMenu">
       <sprite>sprites\sButton</sprite>
+    </sprites>
+    <sprites name="player">
+      <sprite>sprites\sPlayerStanding</sprite>
+      <sprite>sprites\sPlayerRunning</sprite>
+      <sprite>sprites\sPlayerJump</sprite>
+      <sprite>sprites\sPlayerFall</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scriptGetInputs.gml</script>
-    <script>scripts\scriptStand.gml</script>
-    <script>scripts\scriptRun.gml</script>
-    <script>scripts\scriptJump.gml</script>
-    <script>scripts\scriptCollisionGrav.gml</script>
-    <scripts name="mainMenu">
-      <script>scripts\scriptButton.gml</script>
+    <scripts name="rooms">
+      <scripts name="mainMenu">
+        <script>scripts\scriptButton.gml</script>
+      </scripts>
+      <script>scripts\scriptChangeRooms.gml</script>
+    </scripts>
+    <scripts name="player">
+      <script>scripts\scriptCollisionGrav.gml</script>
+      <script>scripts\scriptRun.gml</script>
+      <script>scripts\scriptStand.gml</script>
+      <script>scripts\scriptJump.gml</script>
+      <script>scripts\scriptGetInputs.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\oWall</object>
     <object>objects\oPlayer</object>
-    <object>objects\object2</object>
     <objects name="mainMenu">
       <object>objects\oButton</object>
     </objects>
