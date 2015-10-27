@@ -1,20 +1,18 @@
 scriptGetInputs();
 
-if(sprite_index != sPlayerFall){    //if player sprite is not falling
-    sprite_index = sPlayerJump;
-}
+sprite_index = sPlayerJump;
 
-if(image_index == 11.7 || sprite_index == sPlayerFall){ //if reached last frame of jump or already falling
-    sprite_index = sPlayerFall; //set sprite to looping fall animation
+if(image_index == 9.9){ //if reached last frame of jump or already falling
+    state = state.fall;
 }
-if (gravity == 0 && vspeed == 0)  && !keyJump{  //if on the floor
-    state = state.stand
+if (gravity == 0 && vspeed == 0)  && !keyJump{  //if on the floor and jump is not pressed
+    state = state.stand;
 }
-if(place_meeting(x,y + 1, oWall) && keyJump){
+if(gravity == 0 && vspeed == 0 && keyJump){ //if on floor and want to jump again
     vspeed = -jumpSpeed; //sets the vertical speed to jumpSpeed upwards
-    image_index = 0;
-}else if(place_meeting(x,y + 1, oWall)){
-    state = state.run;  //sets the state to run if the player is on the ground
+    image_index = 0;    //sets the jumping animation frame to 0
+}else if(gravity == 0 && vspeed == 0 && !keyJump && (hspeed != 0 || (keyRight xor keyLeft))){  //if on floor and moving
+    state = state.run;
 }
 
 //MOVE LEFT AND RIGHT IN THE AIR

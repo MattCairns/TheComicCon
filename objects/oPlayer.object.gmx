@@ -96,6 +96,7 @@ switch(state){
     case state.stand: scriptStand(); break;
     case state.run: scriptRun(); break;
     case state.jump: scriptJump(); break;
+    case state.fall: scriptFall(); break;
 }
 
 </string>

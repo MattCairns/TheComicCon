@@ -27,11 +27,12 @@
       <script>scripts\scriptChangeRooms.gml</script>
     </scripts>
     <scripts name="player">
-      <script>scripts\scriptCollisionGrav.gml</script>
-      <script>scripts\scriptRun.gml</script>
-      <script>scripts\scriptStand.gml</script>
-      <script>scripts\scriptJump.gml</script>
       <script>scripts\scriptGetInputs.gml</script>
+      <script>scripts\scriptStand.gml</script>
+      <script>scripts\scriptRun.gml</script>
+      <script>scripts\scriptJump.gml</script>
+      <script>scripts\scriptFall.gml</script>
+      <script>scripts\scriptCollisionGrav.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">

@@ -6,8 +6,12 @@ if(keyLeft xor keyRight){   //non-inclusive because we do not want to run if bot
     state = state.run;
 }
 
-if(keyJump && place_meeting(x,y + 1, oWall)) {
+if(keyJump && gravity == 0 && vspeed == 0) { //if jump key is pressed and player on ground
     state = state.jump;
+}
+
+if(place_free(x, y + 1)){   //if free space under character
+    state = state.fall;
 }
 
 scriptCollisionGrav();

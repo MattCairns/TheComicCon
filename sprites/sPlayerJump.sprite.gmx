@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>56</xorig>
-  <yorigin>69</yorigin>
+  <yorigin>73</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
@@ -30,7 +30,5 @@
     <frame index="7">images\sPlayerJump_7.png</frame>
     <frame index="8">images\sPlayerJump_8.png</frame>
     <frame index="9">images\sPlayerJump_9.png</frame>
-    <frame index="10">images\sPlayerJump_10.png</frame>
-    <frame index="11">images\sPlayerJump_11.png</frame>
   </frames>
 </sprite>

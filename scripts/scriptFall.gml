@@ -1,17 +1,11 @@
 scriptGetInputs();
 
-sprite_index = sPlayerRunning;
+sprite_index = sPlayerFall;
 
-if(hspeed == 0 && !(keyLeft xor keyRight)){ //stops stand animation if switching direction
+if(!place_free(x, (y + vspeed)) && hspeed == 0){    //if about to hit ground and still
     state = state.stand;
-}
-
-if(keyJump && place_meeting(x,y + 1, oWall)) {  //jump key pressed, player on the floor
-    state = state.jump;  
-}
-
-if(place_free(x, y + 1)){   //if space is free under character
-    state = state.fall;
+}else if(!place_free(x, (y + vspeed))){ //if about to hit ground and moving
+    state = state.run;
 }
 
 //LEFT AND RIGHT
