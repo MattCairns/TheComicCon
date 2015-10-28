@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sMoveBox</sprite>
     <sprites name="mainMenu">
       <sprite>sprites\sButton</sprite>
     </sprites>
@@ -37,6 +38,7 @@
   </scripts>
   <objects name="objects">
     <object>objects\oWall</object>
+    <object>objects\oMoveBox</object>
     <object>objects\oPlayer</object>
     <objects name="mainMenu">
       <object>objects\oButton</object>
