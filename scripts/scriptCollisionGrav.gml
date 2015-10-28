@@ -12,3 +12,4 @@ if(place_free(x, (y + vspeed))){    //if y coord for next step is free
 if(!place_free((x + hspeed), y-10)){
     hspeed = 0;
 }
+

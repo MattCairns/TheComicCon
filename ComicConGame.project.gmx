@@ -32,6 +32,7 @@
       <script>scripts\scriptStand.gml</script>
       <script>scripts\scriptRun.gml</script>
       <script>scripts\scriptJump.gml</script>
+      <script>scripts\scriptMoveObjects.gml</script>
       <script>scripts\scriptFall.gml</script>
       <script>scripts\scriptCollisionGrav.gml</script>
     </scripts>
