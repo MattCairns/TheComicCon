@@ -127,6 +127,8 @@ global.keyboardSetting = 1;</code>
     <instance objName="oWall" x="1344" y="704" name="inst_645F509D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="1344" y="704" name="inst_9DDA7B67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="1344" y="768" name="inst_E926D90D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oMoveBox" x="832" y="768" name="inst_DB1E5B2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oMoveBox" x="512" y="768" name="inst_AE59DB5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
