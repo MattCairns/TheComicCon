@@ -8,46 +8,25 @@
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sMoveBox</sprite>
-    <sprites name="mainMenu">
-      <sprite>sprites\sButton</sprite>
-    </sprites>
-    <sprites name="player">
-      <sprite>sprites\sPlayerStanding</sprite>
-      <sprite>sprites\sPlayerRunning</sprite>
-      <sprite>sprites\sPlayerJump</sprite>
-      <sprite>sprites\sPlayerFall</sprite>
-    </sprites>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <scripts name="rooms">
-      <scripts name="mainMenu">
-        <script>scripts\scriptButton.gml</script>
-      </scripts>
-      <script>scripts\scriptChangeRooms.gml</script>
-    </scripts>
-    <scripts name="player">
-      <script>scripts\scriptGetInputs.gml</script>
-      <script>scripts\scriptStand.gml</script>
-      <script>scripts\scriptRun.gml</script>
-      <script>scripts\scriptJump.gml</script>
-      <script>scripts\scriptMoveObjects.gml</script>
-      <script>scripts\scriptFall.gml</script>
-      <script>scripts\scriptCollisionGrav.gml</script>
-    </scripts>
+    <script>scripts\detectMouse.gml</script>
+    <script>scripts\blockController.gml</script>
+    <script>scripts\changeBlockColour.gml</script>
+    <script>scripts\declareVariables.gml</script>
+    <script>scripts\moveBlock.gml</script>
+    <script>scripts\button.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oWall</object>
     <object>objects\oMoveBox</object>
-    <object>objects\oPlayer</object>
-    <objects name="mainMenu">
-      <object>objects\oButton</object>
-    </objects>
+    <object>objects\oButton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
-    <room>rooms\rMainMenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

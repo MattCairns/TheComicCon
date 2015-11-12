@@ -19,5 +19,10 @@
   <PhysicsObjectFriction>0.5</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>0,0</point>
+    <point>64,0</point>
+    <point>64,64</point>
+    <point>0,64</point>
+  </PhysicsShapePoints>
 </object>
