@@ -28,6 +28,8 @@
             <string>///DECLARATIONS
 state = state.stand;
 image_speed = 0.3;
+
+horizontalAcceleration = 0.2; 
 </string>
           </argument>
         </arguments>
@@ -137,7 +139,7 @@ switch(state){
           <argument>
             <kind>1</kind>
             <string>///Text draw
-draw_text(0,0,"Press keys 1-3 to change keyboard layout");
+draw_text(0,0,"Press keys 1-3 to change keyboard layout or F1 and F2 to change player acceleration to something comfortable.");
 switch (global.keyboardSetting)
 {
     case 1: 
@@ -160,8 +162,63 @@ switch (global.keyboardSetting)
         break;
     default: draw_text(100,100, "THSIISATEST3");
 }
+draw_set_color(c_red);
+draw_text(100,180, "Current acceleration: " + string(horizontalAcceleration));
+draw_set_color(c_black);
  
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="113">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>horizontalAcceleration</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0.1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="112">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>horizontalAcceleration</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-0.1</string>
           </argument>
         </arguments>
       </action>

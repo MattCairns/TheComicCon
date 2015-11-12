@@ -27,17 +27,17 @@ switch (global.keyboardSetting) {
 }
 
 
-
 switch (keyboard_key)
 {
-    case ord("1"): global.keyboardSetting = 1; ; break;
-    case ord("2"): global.keyboardSetting = 2; ; break;
-    case ord("3"): global.keyboardSetting = 3; ; break;
-    case ord("4"): global.keyboardSetting = 4; ; break;
-    case ord("5"): global.keyboardSetting = 5; ; break;
+    case ord("1"): global.keyboardSetting = 1; break;
+    case ord("2"): global.keyboardSetting = 2; break;
+    case ord("3"): global.keyboardSetting = 3; break;
+    case ord("4"): global.keyboardSetting = 4; break;
+    case ord("5"): global.keyboardSetting = 5; break;
+
 }
- 
+
  
 jumpSpeed = 15;
-horizontalAcceleration = 0.2;   //arbitrary number as this made the animation look smooth
+  //arbitrary number as this made the animation look smooth
 
