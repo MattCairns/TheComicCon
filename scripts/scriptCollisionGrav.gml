@@ -13,3 +13,15 @@ if(!place_free((x + hspeed), y-10)){
     hspeed = 0;
 }
 
+
+if (x > room_width)
+{ x = -sprite_width; }
+
+if (x < -sprite_width)
+{ x = room_width; }
+
+if (y > room_height)
+{ y = -sprite_height; }
+
+if (y < -sprite_height)
+{ y = room_height; }

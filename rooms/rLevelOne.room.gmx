@@ -57,32 +57,12 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oWall" x="64" y="832" name="inst_55870F45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="128" y="832" name="inst_B305E87B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="192" y="832" name="inst_F0538F7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="256" y="832" name="inst_CDD58CBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="384" y="832" name="inst_FCA10EC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="320" y="832" name="inst_FC5E9599" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="448" y="832" name="inst_5612F313" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="512" y="832" name="inst_C960424C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="576" y="832" name="inst_1C95719D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="640" y="832" name="inst_F2268220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="704" y="832" name="inst_4DD0926B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="768" y="832" name="inst_38295706" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="832" y="832" name="inst_66C57F63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="896" y="832" name="inst_8386B949" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="960" y="832" name="inst_53FA7C70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1024" y="832" name="inst_B94C32B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1088" y="832" name="inst_F2159FD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1216" y="832" name="inst_98ABD406" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1152" y="832" name="inst_E95AA231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1280" y="832" name="inst_86BBEE3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1344" y="832" name="inst_E24D60A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMoveBox" x="278" y="403" name="inst_1F0B1B47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMoveBox" x="512" y="768" name="inst_14502D84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oMoveBox" x="640" y="768" name="inst_23D692B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPlayer" x="152" y="363" name="inst_56F6F449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="699" y="445" name="inst_651E0B0D" locked="0" code="" scaleX="21.875" scaleY="0.125" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="699" y="447" name="inst_651E0B0D" locked="0" code="" scaleX="21.761905670166" scaleY="0.1875" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="700" y="879" name="inst_DC03C588" locked="0" code="" scaleX="22.0158729553223" scaleY="0.484375" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
