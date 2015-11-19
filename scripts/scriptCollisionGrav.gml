@@ -8,9 +8,14 @@ if(place_free(x, (y + vspeed))){    //if y coord for next step is free
     vspeed = 0; //stops player movement
 }
 
-//if player runs into a block, stop them moving
-if(place_meeting(x + hspeed+sprite_width/10, y-sprite_height/2, oWall)){
+//if player runs into a wall, stop them moving
+if(!place_free(x + hspeed+sprite_width/10, y-sprite_height/2)){
     hspeed = 0;
+}
+
+if place_meeting(x+hspeed+sprite_width/10, y, oMoveBox) && state != state.moveObject {
+    hspeed = 0;
+    show_debug_message("CUNTFUCKER")
 }
 
 //Player will teleport to correct location in room when they go to the edge.
