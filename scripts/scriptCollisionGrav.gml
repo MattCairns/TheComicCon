@@ -9,19 +9,17 @@ if(place_free(x, (y + vspeed))){    //if y coord for next step is free
 }
 
 //if player runs into a block, stop them moving
-if(!place_free((x + hspeed), y-10)){
+if(place_meeting(x + hspeed+sprite_width/10, y-sprite_height/2, oWall)){
     hspeed = 0;
 }
 
+//Player will teleport to correct location in room when they go to the edge.
+if(x >= room_width && y < room_height/2 && hspeed > 0) {
+    x = ((x mod room_width) + room_width) mod room_width
+    y = 900-(sprite_height/2)-30
+}
 
-if (x > room_width)
-{ x = -sprite_width; }
-
-if (x < -sprite_width)
-{ x = room_width; }
-
-if (y > room_height)
-{ y = -sprite_height; }
-
-if (y < -sprite_height)
-{ y = room_height; }
+if(x <= -sprite_width/2 && y >= room_height/2 && hspeed < 0) {
+    x = room_width
+    y = 900-(room_height/2)-(sprite_height/2)
+}

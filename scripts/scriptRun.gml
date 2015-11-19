@@ -1,6 +1,7 @@
 scriptGetInputs();
 
 sprite_index = sPlayerRunning;
+mask_index = sPlayerStanding;
 
 if(hspeed == 0 && !(keyLeft xor keyRight)){ //stops stand animation if switching direction
     state = state.stand;

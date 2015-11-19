@@ -1,6 +1,7 @@
 scriptGetInputs();
 
 sprite_index = sPlayerFall;
+mask_index = sPlayerStanding;
 
 if(!place_free(x, (y + vspeed)) && hspeed == 0){    //if about to hit ground and still
     state = state.stand;
