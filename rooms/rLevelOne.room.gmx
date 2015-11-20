@@ -67,6 +67,10 @@
     <instance objName="oMoveBox" x="317" y="407" name="inst_7179F7B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="544" y="407" name="inst_F66D16F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="544" y="342" name="inst_1F952FBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="700" y="448" name="inst_0613C6BC" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="700" y="448" name="inst_CDB957A5" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="1380" y="448" name="inst_2F3448AD" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="24" y="457" name="inst_BC96D58F" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

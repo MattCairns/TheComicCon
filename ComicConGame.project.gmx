@@ -17,6 +17,7 @@
       <sprite>sprites\sPlayerJump</sprite>
       <sprite>sprites\sPlayerFall</sprite>
     </sprites>
+    <sprite>sprites\sBlockStop</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundComicFrame</background>
@@ -44,6 +45,7 @@
     </scripts>
   </scripts>
   <objects name="objects">
+    <object>objects\oBlockStop</object>
     <object>objects\oBlockParent</object>
     <object>objects\oWall</object>
     <object>objects\oMoveBox</object>
