@@ -40,6 +40,7 @@
     </scripts>
   </scripts>
   <objects name="objects">
+    <object>objects\oBlockParent</object>
     <object>objects\oWall</object>
     <object>objects\oMoveBox</object>
     <object>objects\oPlayer</object>

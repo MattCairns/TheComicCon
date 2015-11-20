@@ -3,9 +3,9 @@ scriptGetInputs();
 sprite_index = sPlayerFall;
 mask_index = sPlayerStanding;
 
-if(!place_free(x, (y + vspeed)) && hspeed == 0){    //if about to hit ground and still
+if(place_meeting(x, (y + vspeed), oBlockParent) && hspeed == 0){    //if about to hit ground and still
     state = state.stand;
-}else if(!place_free(x, (y + vspeed))){ //if about to hit ground and moving
+}else if(place_meeting(x, (y + vspeed), oBlockParent)){ //if about to hit ground and moving
     state = state.run;
 }
 

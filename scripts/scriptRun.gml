@@ -7,11 +7,11 @@ if(hspeed == 0 && !(keyLeft xor keyRight)){ //stops stand animation if switching
     state = state.stand;
 }
 
-if(keyJump && place_meeting(x,y + 1, oWall)) {  //jump key pressed, player on the floor
+if(keyJump && place_meeting(x,y + 1, oBlockParent)) {  //jump key pressed, player on the floor
     state = state.jump;  
 }
 
-if(place_free(x, y + 1)){   //if space is free under character
+if(!place_meeting(x, y + 1, oBlockParent)){   //if space is free under character
     state = state.fall;
 }
 

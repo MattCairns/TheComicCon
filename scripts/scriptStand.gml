@@ -11,7 +11,7 @@ if(keyJump && gravity == 0 && vspeed == 0) { //if jump key is pressed and player
     state = state.jump;
 }
 
-if(place_free(x, y + 1)){   //if free space under character
+if(!place_meeting(x, y + 1, oBlockParent)){   //if free space under character
     state = state.fall;
 }
 
