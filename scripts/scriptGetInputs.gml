@@ -5,5 +5,6 @@ keyJump = keyboard_check(vk_space) || keyboard_check(ord("W"));
 keyMoveObject = keyboard_check(vk_shift);
 
 jumpSpeed = 15;
-horizontalAcceleration = 0.2;   //arbitrary number as this made the animation look smooth
+horizontalAcceleration = 0.2;
+didCollide = 0;   //arbitrary number as this made the animation look smooth
 
