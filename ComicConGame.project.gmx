@@ -47,7 +47,6 @@
       <object>objects\oButton</object>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
     <room>rooms\rMainMenu</room>
