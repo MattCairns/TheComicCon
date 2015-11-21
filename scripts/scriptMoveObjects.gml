@@ -7,6 +7,7 @@ var block = instance_place(x+hspeed, y, oMoveBox);
 //Anything in this with statement only refers to block object
 with(block) {
     hspeed = sign(oPlayer.hspeed)*3;
+    scriptCollision();
 }
 
 //Change speed of player to equal block speed

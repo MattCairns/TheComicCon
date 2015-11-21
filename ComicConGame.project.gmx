@@ -53,6 +53,7 @@
     <objects name="mainMenu">
       <object>objects\oButton</object>
     </objects>
+    <object>objects\oDebugConsole</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>

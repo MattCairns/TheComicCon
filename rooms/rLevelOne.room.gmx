@@ -71,6 +71,8 @@
     <instance objName="oBlockStop" x="700" y="448" name="inst_CDB957A5" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1380" y="448" name="inst_2F3448AD" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="24" y="457" name="inst_BC96D58F" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
+    <instance objName="oDebugConsole" x="64" y="64" name="inst_DCA281B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDebugConsole" x="512" y="448" name="inst_1BD8F0F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
