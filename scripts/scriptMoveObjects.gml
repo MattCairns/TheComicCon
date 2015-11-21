@@ -6,15 +6,24 @@ var block = instance_place(x+hspeed, y, oMoveBox);
 
 //Anything in this with statement only refers to block object
 with(block) {
-    hspeed = sign(oPlayer.hspeed)*3;
-    scriptCollision();
+    for(i = 0; i < instance_number(oMoveBox); i++){
+        with(instance_find(oMoveBox, i)){
+            hspeed = sign(oPlayer.hspeed)*3;
+            scriptCollision();
+        }
+    }
+    
 }
 
 //Change speed of player to equal block speed
 hspeed = sign(hspeed)*3
 if(!keyMoveObject) {
     with(block)
-        hspeed = 0;
+        for(i = 0; i < instance_number(oMoveBox); i++){
+            with(instance_find(oMoveBox, i)){
+                hspeed = 0;
+            }
+        }
     state = state.run;
 
 }
