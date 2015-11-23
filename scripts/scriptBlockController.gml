@@ -1,1 +1,1 @@
-scriptCollision();
+scriptCollisionAll();
