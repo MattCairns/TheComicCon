@@ -1,3 +1,4 @@
 scriptCollisionBlocks();
 scriptCollisionWalls();
+scriptCollisionVertical();
 
