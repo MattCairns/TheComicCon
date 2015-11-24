@@ -19,10 +19,12 @@
 }
 
 //create the blocks for this room
-zeroArray[0] = instance_create( 317, 407, oMoveBox );
-zeroArray[1] = instance_create( 945, 408, oMoveBox );
-zeroArray[2] = instance_create( 128, 832, oMoveBox );
-blocksArray[0] = zeroArray;</code>
+global.arrayLength = 1;
+zeroArray[0] = 3
+zeroArray[1] = instance_create( 317, 407, oMoveBox );
+zeroArray[2] = instance_create( 945, 408, oMoveBox );
+zeroArray[3] = instance_create( 128, 832, oMoveBox );
+global.blocksArray[0] = zeroArray;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
