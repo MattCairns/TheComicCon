@@ -44,7 +44,6 @@
       <script>scripts\scriptCollisionBlocks.gml</script>
       <script>scripts\scriptCollisionWalls.gml</script>
       <script>scripts\scriptCollisionAll.gml</script>
-      <script>scripts\scriptCollisionVertical.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
