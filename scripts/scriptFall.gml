@@ -1,4 +1,5 @@
 scriptGetInputs();
+detectWallsInRoom();
 
 sprite_index = sPlayerFall;
 

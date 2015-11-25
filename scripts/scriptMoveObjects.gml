@@ -1,6 +1,6 @@
 scriptGetInputs();
+detectWallsInRoom();
 //Improved, though not perfect
-
 
 
 global.instanceId = instance_place(x+hspeed, y, oMoveBox);  //gets the block that you are moving

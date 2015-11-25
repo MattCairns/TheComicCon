@@ -66,22 +66,25 @@ global.blocksArray[0] = zeroArray;</code>
   </views>
   <instances>
     <instance objName="oPlayer" x="152" y="363" name="inst_56F6F449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="699" y="447" name="inst_651E0B0D" locked="0" code="" scaleX="21.761905670166" scaleY="0.1875" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="194" y="895" name="inst_DC03C588" locked="0" code="" scaleX="7.40625" scaleY="1.03125" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1422" y="704" name="inst_755F6746" locked="0" code="" scaleX="1.609375" scaleY="6.30000019073486" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="-13" y="216" name="inst_7ED62A48" locked="0" code="" scaleX="1.515625" scaleY="7.375" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="449" y="407" name="inst_F66D16F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="449" y="342" name="inst_1F952FBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="448" y="376" name="inst_F66D16F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="700" y="448" name="inst_0613C6BC" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="700" y="448" name="inst_CDB957A5" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1380" y="448" name="inst_2F3448AD" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="24" y="457" name="inst_BC96D58F" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
-    <instance objName="oDebugConsole" x="64" y="64" name="inst_DCA281B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1152" y="409" name="inst_476C4F56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1151" y="344" name="inst_E91E930A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="320" y="832" name="inst_EEAEB234" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="320" y="768" name="inst_2E4D5EF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="1109" y="901" name="inst_A40984C5" locked="0" code="" scaleX="13.046875" scaleY="1.20634925365448" colour="4294967295" rotation="0"/>
+    <instance objName="oDebugConsole" x="64" y="128" name="inst_DCA281B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="1152" y="376" name="inst_476C4F56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="320" y="798" name="inst_EEAEB234" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="128" y="448" name="inst_2836FE48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockParent" x="128" y="128" name="inst_0D515875" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="384" y="448" name="inst_C2A37585" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="695" y="406" name="inst_7F92A31B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="694" y="442" name="inst_99073432" locked="0" code="" scaleX="140" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockStop" x="1375" y="412" name="inst_42CCC725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="34" y="209" name="inst_D6AF7ECC" locked="0" code="" scaleX="0.272727280855179" scaleY="50" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="181" y="867" name="inst_D8C147AE" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="1375" y="704" name="inst_BDF5DC9F" locked="0" code="" scaleX="1" scaleY="50" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="1108" y="867" name="inst_5CAFFC3A" locked="0" code="" scaleX="80" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="5" y="866" name="inst_FBA6F371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

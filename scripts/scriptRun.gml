@@ -1,4 +1,5 @@
 scriptGetInputs();
+detectWallsInRoom();
 
 sprite_index = sPlayerRunning;
 mask_index = sPlayerStanding;
