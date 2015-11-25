@@ -19,8 +19,8 @@
 }
 
 //create the blocks for this room
-global.arrayLength = 1;
-zeroArray[0] = 3
+global.arrayLength = 1; //number of linked groups for the room
+zeroArray[0] = 3    //numbur of blocks in the group
 zeroArray[1] = instance_create( 317, 407, oMoveBox );
 zeroArray[2] = instance_create( 945, 408, oMoveBox );
 zeroArray[3] = instance_create( 128, 830, oMoveBox );
