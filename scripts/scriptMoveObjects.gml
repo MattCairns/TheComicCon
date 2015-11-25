@@ -1,38 +1,35 @@
 scriptGetInputs();
-//TODO -- This was just hacked together, needs lot of work.
+//Improved, though not perfect
 
 
-//move the blocks
-var block = instance_place(x+hspeed, y, oMoveBox);
 
-global.instanceId = instance_place(x+hspeed, y, oMoveBox);
-global.pathBlocked = false;
-with(block) {
-    if(!place_meeting(x + 3, y, oBlockParent)){
-        instanceId = global.instanceId;
+global.instanceId = instance_place(x+hspeed, y, oMoveBox);  //gets the block that you are moving
+global.pathBlocked = false; //used if the one you are moving is blocked
+with(global.instanceId) {
+    if(!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockParent)){  //if there is nothing in the way
         hspeed = sign(oPlayer.hspeed)*3;
-        location[0] = "";
+        location[0] = "";   //declares this array for use later
         location[1] = "";
         location[2] = "";
-        for(i = 0; i < global.arrayLength; i++){
-            tempArray = global.blocksArray[i];
-            for(j = 1; j <= tempArray[0]; j++){
-                if(tempArray[j] == instanceId){
-                    location[0] = i;
+        for(i = 0; i < global.arrayLength; i++){ //loop through block groups
+            tempArray = global.blocksArray[i];  //GML doesn't do array[][] for some reason
+            for(j = 1; j <= tempArray[0]; j++){ //loop through blocks in group
+                if(tempArray[j] == global.instanceId){ //if this is the element we are moving
+                    location[0] = i; //store it's possition in the array
                     location[1] = j;
                     location[2] = tempArray[0] + 1;
                 }    
             }
         }
-        for(i = location[1]; i < location[2]; i++){
-            tempArray = global.blocksArray[location[0]];
+        for(i = location[1]; i < location[2]; i++){ //loop through only elements after the current one
+            tempArray = global.blocksArray[location[0]]; // store the elements to move
             with(tempArray[i]){
-                hspeed = sign(oPlayer.hspeed)*3;
-                scriptCollisionAll();
+                hspeed = sign(oPlayer.hspeed)*3; //move the elements
+                scriptCollisionAll(); //check for collisions
             }
         }
     }else{
-        global.pathBlocked = true;
+        global.pathBlocked = true; //set the variable for later
     }
 }
     
@@ -40,11 +37,11 @@ with(block) {
 
 
 hspeed = sign(hspeed)*3
-if(!keyMoveObject or global.pathBlocked) {
-    with(block)
-        for(i = 0; i < instance_number(oMoveBox); i++){
+if(!keyMoveObject or global.pathBlocked) { //or if the path is blocked as above
+    with(global.instanceId)
+        for(i = 0; i < instance_number(oMoveBox); i++){ //loop through all blocks
             with(instance_find(oMoveBox, i)){
-                hspeed = 0;
+                hspeed = 0; //stop them moving
             }
         }
     state = state.run;
