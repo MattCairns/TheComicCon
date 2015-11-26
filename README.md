@@ -7,6 +7,6 @@ Become a comic book character as you traverse comic panels and manipulate time t
 
 # Credits
 backgroundOutdoors:
-	* CC0 1.0 Universal (CC0 1.0) 
-	* Public Domain Dedication
-	* http://opengameart.org/content/bevouliin-free-fence-game-background-for-game-developers
+* CC0 1.0 Universal (CC0 1.0) 
+* Public Domain Dedication
+* http://opengameart.org/content/bevouliin-free-fence-game-background-for-game-developers
