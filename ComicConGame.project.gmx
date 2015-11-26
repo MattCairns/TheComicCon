@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sTallMoveBox</sprite>
     <sprite>sprites\sMoveBox</sprite>
     <sprites name="mainMenu">
       <sprite>sprites\sButton</sprite>
@@ -55,6 +56,7 @@
     <object>objects\oBlockStop</object>
     <object>objects\oBlockParent</object>
     <object>objects\oWall</object>
+    <object>objects\oTallMoveBox</object>
     <object>objects\oMoveBox</object>
     <object>objects\oPlayer</object>
     <objects name="mainMenu">

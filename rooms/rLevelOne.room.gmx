@@ -85,6 +85,7 @@ global.blocksArray[0] = zeroArray;</code>
     <instance objName="oBoundary" x="1375" y="704" name="inst_BDF5DC9F" locked="0" code="" scaleX="1" scaleY="50" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="1108" y="867" name="inst_5CAFFC3A" locked="0" code="" scaleX="80" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="5" y="866" name="inst_FBA6F371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTallMoveBox" x="768" y="320" name="inst_122C0E98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
