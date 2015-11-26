@@ -22,6 +22,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundComicFrame</background>
+    <background>background\backgroundOutdoors</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
