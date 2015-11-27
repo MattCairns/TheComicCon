@@ -5,8 +5,9 @@ detectWallsInRoom();
 
 global.instanceId = instance_place(x+hspeed, y, oMoveBox);  //gets the block that you are moving
 global.pathBlocked = false; //used if the one you are moving is blocked
-with(global.instanceId) {
-    if(!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockParent)){  //if there is nothing in the way
+with(global.instanceId) {   
+    
+    if((!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockParent))){  //if there is nothing in the way
         hspeed = sign(oPlayer.hspeed)*3;
         location[0] = "";   //declares this array for use later
         location[1] = "";
@@ -21,6 +22,7 @@ with(global.instanceId) {
                 }    
             }
         }
+        
         for(i = location[1]; i < location[2]; i++){ //loop through only elements after the current one
             tempArray = global.blocksArray[location[0]]; // store the elements to move
             with(tempArray[i]){
@@ -31,7 +33,10 @@ with(global.instanceId) {
     }else{
         global.pathBlocked = true; //set the variable for later
     }
+    
 }
+
+
     
 //Change speed of player to equal block speed
 
