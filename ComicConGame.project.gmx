@@ -39,6 +39,7 @@
       <script>scripts\scriptRun.gml</script>
       <script>scripts\scriptJump.gml</script>
       <script>scripts\scriptFall.gml</script>
+      <script>scripts\scriptLadder.gml</script>
       <script>scripts\scriptCollisionGrav.gml</script>
       <script>scripts\detectWallsInRoom.gml</script>
       <scripts name="moveBlocks">

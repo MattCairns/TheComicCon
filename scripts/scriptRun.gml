@@ -21,6 +21,11 @@ if(keyMoveObject && place_meeting(x+hspeed+sprite_width/10+1, y, oMoveBox)) {
     state = state.moveObject;
 }
 
+if(place_meeting(x - 1, y, oTallMoveBox)) {
+    state = state.ladder;
+}
+
+
 
  //If this does not come before movement then player gets stuck in things.
 

@@ -16,4 +16,8 @@ if(!place_meeting(x, y + 1, oBlockParent)){   //if free space under character
     state = state.fall;
 }
 
+if(place_meeting(x - 1, y, oTallMoveBox)) {
+    state = state.ladder;
+}
+
 scriptCollisionGrav();
