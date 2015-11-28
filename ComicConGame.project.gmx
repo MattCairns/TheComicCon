@@ -61,6 +61,7 @@
       </scripts>
     </scripts>
     <script>scripts\collision_rectangle_r.gml</script>
+    <script>scripts\collision_line_r.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oBlockParent</object>
