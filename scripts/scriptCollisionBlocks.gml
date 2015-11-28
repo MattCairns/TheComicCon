@@ -3,7 +3,6 @@ if(place_meeting(x + hspeed, y, oBlockParent)){
     contactId = instance_place(x + hspeed, y, oWall);
     
     if(contactId != -4){
-        show_debug_message(contactId);
         with(contactId){
             if(up){
                 global.blockInWay = true;

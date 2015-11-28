@@ -10,7 +10,6 @@ with(global.instanceId) {
     if (!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x + 3, y, oBlockStop) and !place_meeting(x - 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockStop)){  //if there is nothing in the way
         scriptMove();
     }else{
-        show_debug_message("true");
         global.pathBlocked = true; //set the variable for later
     }
     

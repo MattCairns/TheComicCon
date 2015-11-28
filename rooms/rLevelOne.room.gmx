@@ -94,7 +94,9 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oPressurePad" x="1177" y="408" name="inst_920632E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPressurePad" x="387" y="830" name="inst_278A3AA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="" x="832" y="448" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_A75F7D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

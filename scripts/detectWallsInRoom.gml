@@ -22,4 +22,6 @@ if(x < room_width/2){
 if(wallInstance != -4){
     moveBlockUp(wallInstance, removalPos);
 }
+
+
 checkBlocksInRoom();

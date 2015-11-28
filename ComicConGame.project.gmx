@@ -56,6 +56,7 @@
       <script>scripts\checkBlocksInRoom.gml</script>
       <script>scripts\moveBlockDown.gml</script>
     </scripts>
+    <script>scripts\collision_rectangle_r.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oBlockParent</object>

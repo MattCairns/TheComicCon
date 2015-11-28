@@ -8,3 +8,4 @@ if(!place_meeting(x, y + vspeed + 1, oBlockParent)){    //if y coord for next st
     gravity = 0;    //stops gravity moving the player
     vspeed = 0; //stops player movement
 }
+global.falling = false;
