@@ -1,18 +1,16 @@
 if(place_meeting(x + hspeed, y, oBlockParent)){
-    global.blockInWay = false;
-    contactId = instance_place(x + hspeed, y, oWall);
-    
-    if(contactId != -4){
-        show_debug_message(contactId);
+    global.blockInWay = false; //declare for later use
+    contactId = instance_place(x + hspeed, y, oWall); //get object instance
+    if(contactId != -4){    //if object is a wall
         with(contactId){
-            if(up){
-                global.blockInWay = true;
+            if(up){ //if the wall is up
+                global.blockInWay = true; //tell the below statement that the way is blocked
             }
         }
-        if(global.blockInWay){
-            hspeed = 0;
+        if(global.blockInWay){ //if way is blocked
+            hspeed = 0; //stop
         }
-    }else{
-        hspeed = 0;
+    }else{ //if the object is not a wall
+        hspeed = 0; //stop
     }
 }
