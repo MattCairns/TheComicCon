@@ -20,6 +20,7 @@
       <sprite>sprites\sPlayerFall</sprite>
     </sprites>
     <sprite>sprites\sBlockStop</sprite>
+    <sprite>sprites\sDeathMessage</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundComicFrame</background>
@@ -33,6 +34,7 @@
         <script>scripts\scriptButton.gml</script>
       </scripts>
       <script>scripts\scriptChangeRooms.gml</script>
+      <script>scripts\loseRoom.gml</script>
     </scripts>
     <scripts name="player">
       <script>scripts\scriptGetInputs.gml</script>
@@ -48,6 +50,7 @@
         <script>scripts\scriptMove.gml</script>
       </scripts>
       <script>scripts\scriptMovement.gml</script>
+      <script>scripts\scriptDead.gml</script>
     </scripts>
     <scripts name="block">
       <script>scripts\moveBlockUp.gml</script>
@@ -81,10 +84,12 @@
       <object>objects\oButton</object>
     </objects>
     <object>objects\oDebugConsole</object>
+    <object>objects\oDeathState</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
     <room>rooms\rMainMenu</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
