@@ -13,7 +13,14 @@ if(!place_meeting(x, y + vspeed + 1, oBlockParent)){    //if y coord for next st
 //HORIZONTAL COLLISION
 //if player runs into a wall, stop them moving
 if place_meeting(x + hspeed, y, oBlockParent) {
-    hspeed = 0;
+    if hspeed > 0 {
+        move_outside_all(-180, abs(hspeed))
+       
+    }
+    else if hspeed < 0 {
+        move_outside_all(0, abs(hspeed))
+        
+    }
 }
 
 //Player will teleport to correct location in room when they go to the edge.
