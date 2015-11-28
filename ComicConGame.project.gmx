@@ -24,6 +24,7 @@
   <backgrounds name="background">
     <background>background\backgroundComicFrame</background>
     <background>background\backgroundOutdoors</background>
+    <background>background\menuBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
