@@ -2,7 +2,6 @@ scriptGetInputs();
 detectWallsInRoom();
 
 sprite_index = sPlayerJump;
-mask_index = sPlayerStanding;
 
 if(image_index == 9.9){ //if reached last frame of jump or already falling
     state = state.fall;

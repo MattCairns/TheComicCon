@@ -91,7 +91,7 @@ image_speed = 0.3;
           <argument>
             <kind>1</kind>
             <string>///Movement code
-
+mask_index = sPlayerStanding;
 switch(state){
     case state.stand: scriptStand(); break;
     case state.run: scriptRun(); break;

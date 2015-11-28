@@ -2,7 +2,6 @@ scriptGetInputs();
 detectWallsInRoom();
 
 sprite_index = sPlayerStanding;
-mask_index = sPlayerStanding;
 
 if(keyLeft) {
     hspeed = 0
@@ -34,6 +33,3 @@ if(place_meeting(x, y + 1, oBoundary) and keyRight) {
 if(keyMoveObject && place_meeting(x+hspeed+sprite_width/10+1, y, oMoveBox)) {
     state = state.moveObject;
 }
-
-
-//scriptCollisionGrav();

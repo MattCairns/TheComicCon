@@ -1,7 +1,4 @@
-hspeed = sign(oPlayer.hspeed)*3;
-location[0] = "";   //declares this array for use later
-location[1] = "";
-location[2] = "";
+x = oPlayer.x + 60
 for(i = 0; i < global.arrayLength; i++){ //loop through block groups
     tempArray = global.blocksArray[i];  //GML doesn't do array[][] for some reason
     for(j = 1; j <= tempArray[0]; j++){ //loop through blocks in group
@@ -20,3 +17,4 @@ for(i = location[1]; i < location[2]; i++){ //loop through only elements after t
         scriptCollisionAll(); //check for collisions
     }
 }
+
