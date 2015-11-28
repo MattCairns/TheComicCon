@@ -5,15 +5,15 @@ for(i = 0; i < instance_number(oWall); i++){
             if(oPlayer.x < removalPos[0] or oPlayer.x > removalPos[1]){
                 moveBlockDown(instanceId);
             }
-            global.blockHeight = y - 128;
+            global.blockHeight = y - 128; //height of wall
             global.whileEscape = true;
-            while(collision_rectangle_r(x-31, y-63, x+31, y+63, oBlockParent, false, true) and global.whileEscape ){
-                for(i = 1; i <= global.result[0]; i++){
+            while(collision_rectangle_r(x-31, y-63, x+31, y+63, oBlockParent, false, true) and global.whileEscape ){    //while colliding with objects
+                for(i = 1; i <= global.result[0]; i++){ //loop through blocks
                     with(global.result[i]){
-                        if(y - (sprite_height/2) > global.blockHeight){
-                            y -= 1;
+                        if(y > global.blockHeight){ //if block is not above block
+                            y -= 1; //move up
                         }else{
-                            global.whileEscape = false;
+                            global.whileEscape = false; //escape loop
                         }
                     }
                 }
