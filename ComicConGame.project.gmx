@@ -9,6 +9,7 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sTallMoveBox</sprite>
     <sprite>sprites\sMoveBox</sprite>
+    <sprite>sprites\sPressurePad</sprite>
     <sprites name="mainMenu">
       <sprite>sprites\sButton</sprite>
     </sprites>
@@ -54,17 +55,20 @@
     </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\oBlockStop</object>
     <object>objects\oBlockParent</object>
     <object>objects\oWall</object>
     <object>objects\oTallMoveBox</object>
     <object>objects\oMoveBox</object>
     <object>objects\oPlayer</object>
+    <object>objects\oPressurePad</object>
+    <objects name="Boundries">
+      <object>objects\oBlockStop</object>
+      <object>objects\oBoundary</object>
+    </objects>
     <objects name="mainMenu">
       <object>objects\oButton</object>
     </objects>
     <object>objects\oDebugConsole</object>
-    <object>objects\oBoundary</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>

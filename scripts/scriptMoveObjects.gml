@@ -36,12 +36,8 @@ with(global.instanceId) {
     }
     
 }
-
-
     
 //Change speed of player to equal block speed
-
-
 hspeed = sign(hspeed)*3
 if(!keyMoveObject or global.pathBlocked) { //or if the path is blocked as above
     with(global.instanceId)
