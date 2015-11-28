@@ -30,5 +30,5 @@ if(instanceLeft != -4) {
 //If this does not come before movement then player gets stuck in things.
 scriptCollisionGrav();
 
-scriptMoveCharacter(0.6);
+scriptMovement(0.6);
 

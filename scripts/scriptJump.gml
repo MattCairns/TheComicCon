@@ -16,6 +16,6 @@ if(gravity == 0 && vspeed == 0 && keyJump){ //if on floor and want to jump again
     state = state.run;
 }
 
-scriptMoveCharacter(0.4);
+scriptMovement(0.4);
 
 scriptCollisionGrav();
