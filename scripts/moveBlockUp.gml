@@ -1,12 +1,13 @@
 with(argument0){    //instance of wall
     removalPos = argument1; //removeal coords
+    show_debug_message(buttonPressed);
     if(counterUp > -1){ //if looping
         image_index = counterUp; //next image
         counterUp--;
         operating = true;
-    }else if(counterUp == -1 && !operating && !up){ //start loop
+    }else if(counterUp == -1 and !operating and !up and !buttonPressed){ //start loop
         counterUp = 4;
-    }else{ //continuing states otherwise
+    }else if(!buttonPressed){ //continuing states otherwise
         image_speed = 0;
         operating = false;
         up = true;
