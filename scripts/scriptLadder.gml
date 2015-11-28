@@ -2,9 +2,11 @@ scriptGetInputs();
 detectWallsInRoom();
 
 if(keyLeft) {
+    hspeed = 0
     vspeed = -3;
 }
 if(keyRight) {
+    hspeed = 0
     vspeed = 3;
 }
 
