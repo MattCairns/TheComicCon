@@ -1,4 +1,4 @@
-x = oPlayer.x + 60
+hspeed = sign(oPlayer.hspeed)*3;
 for(i = 0; i < global.arrayLength; i++){ //loop through block groups
     tempArray = global.blocksArray[i];  //GML doesn't do array[][] for some reason
     for(j = 1; j <= tempArray[0]; j++){ //loop through blocks in group

@@ -42,11 +42,11 @@
       <script>scripts\scriptLadder.gml</script>
       <script>scripts\scriptCollisionGrav.gml</script>
       <script>scripts\detectWallsInRoom.gml</script>
+      <script>scripts\scriptMoveCharacter.gml</script>
       <scripts name="moveBlocks">
         <script>scripts\scriptMoveObjects.gml</script>
         <script>scripts\scriptMove.gml</script>
       </scripts>
-      <script>scripts\scriptMoveCharacter.gml</script>
     </scripts>
     <scripts name="block">
       <script>scripts\scriptBlockController.gml</script>
