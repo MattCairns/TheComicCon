@@ -47,7 +47,6 @@
         <script>scripts\scriptMove.gml</script>
       </scripts>
       <script>scripts\scriptMovement.gml</script>
-      <script>scripts\move_contact_obj.gml</script>
     </scripts>
     <scripts name="block">
       <script>scripts\moveBlockUp.gml</script>

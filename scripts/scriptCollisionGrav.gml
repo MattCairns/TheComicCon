@@ -25,7 +25,7 @@ if place_meeting(x + hspeed, y, oBlockParent) {
         }else{
             move_outside_all(0, abs(hspeed)); //move outside object
         }
-	}
+    }
 }
 
 //Player will teleport to correct location in room when they go to the edge.
