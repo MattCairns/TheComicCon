@@ -31,7 +31,6 @@ with(global.instanceId) {
             }
         }
     }else{
-        show_debug_message("true");
         global.pathBlocked = true; //set the variable for later
     }
     
