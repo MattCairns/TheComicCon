@@ -14,7 +14,7 @@ if(!place_meeting(x, y + 1, oBlockParent)){   //if space is free under character
 }
 
 
-if(keyMoveObject && place_meeting(x+hspeed+sprite_width/10+1, y, oMoveBox)) {
+if(keyMoveObject && place_meeting(x+hspeed+sprite_width/10+1, y, oMoveBox) && place_meeting(x, y + 1, oBoundary)) {
     state = state.moveObject;
 }
 
