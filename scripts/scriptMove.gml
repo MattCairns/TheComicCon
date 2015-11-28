@@ -1,4 +1,4 @@
-        hspeed = sign(oPlayer.hspeed)*3;
+        hspeed = sign(hspeed)*3;
         location[0] = "";   //declares this array for use later
         location[1] = "";
         location[2] = "";
@@ -16,7 +16,7 @@
         for(i = location[1]; i < location[2]; i++){ //loop through only elements after the current one
             tempArray = global.blocksArray[location[0]]; // store the elements to move
             with(tempArray[i]){
-                hspeed = -3; //move the elements
+                hspeed = sign(hspeed)*3; //move the elements
                 scriptCollisionAll(); //check for collisions
             }
         }

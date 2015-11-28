@@ -1,4 +1,4 @@
-        hspeed = sign(oPlayer.hspeed)*3;
+        hspeed = 3;
         location[0] = "";   //declares this array for use later
         location[1] = "";
         location[2] = "";

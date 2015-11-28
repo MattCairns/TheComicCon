@@ -43,8 +43,7 @@
       <script>scripts\detectWallsInRoom.gml</script>
       <scripts name="moveBlocks">
         <script>scripts\scriptMoveObjects.gml</script>
-        <script>scripts\scriptMoveObjectLeft.gml</script>
-        <script>scripts\scriptMoveObjectRight.gml</script>
+        <script>scripts\scriptMove.gml</script>
       </scripts>
     </scripts>
     <scripts name="block">
