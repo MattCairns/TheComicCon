@@ -1,14 +1,12 @@
 scriptGetInputs();
 detectWallsInRoom();
 
-sprite_index = sPlayerStanding;
-
 if(keyLeft) {
-    hspeed = 0
+    hspeed = 0;
     vspeed = -3;
 }
 if(keyRight) {
-    hspeed = 0
+    hspeed = 0;
     vspeed = 3;
 }
 

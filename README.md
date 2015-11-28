@@ -8,7 +8,11 @@ Become a comic book character as you traverse comic panels and manipulate time t
 # Credits
 * CC0 1.0 Universal (CC0 1.0) 
 * Public Domain Dedication
-* http://opengameart.org/content/bevouliin-free-fence-game-background-for-game-developers\
-* http://opengameart.org/content/pack-of-ladders
-* http://opengameart.org/content/3-crate-textures-w-bump-normal
-* http://opengameart.org/content/city-background-repetitive-3
+  * http://opengameart.org/content/bevouliin-free-fence-game-background-for-game-developers\
+  * http://opengameart.org/content/pack-of-ladders
+  * http://opengameart.org/content/3-crate-textures-w-bump-normal
+  * http://opengameart.org/content/city-background-repetitive-3
+
+
+* Attribution 2.0 Generic (CC BY 2.0)
+  * https://www.flickr.com/photos/jbcurio/5407729857/

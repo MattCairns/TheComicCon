@@ -26,5 +26,4 @@ if(size != 0){
     }
 }
 
-
 checkBlocksInRoom();

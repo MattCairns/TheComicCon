@@ -1,13 +1,12 @@
-
 //VERTICAL COLLISION
 //if player is in air then pull them down with gravity.
 if(!place_meeting(x, y + vspeed + 1, oBlockParent)){    //if y coord for next step is free
     gravity = 1;    //sets gravity to move the player
 }else{
-    //When player hits ground set velocities to 0
-    move_contact_all(270 , abs(vspeed))//moves the character the remaining distance to the ground
-    gravity = 0;    //stops gravity moving the player
-    vspeed = 0; //stops player movement
+    //When player hits ground set velocities to 0 and move player to ground height.
+    move_contact_all(270 , abs(vspeed))
+    gravity = 0;   
+    vspeed = 0; 
 }
 
 //HORIZONTAL COLLISION
@@ -26,7 +25,7 @@ if place_meeting(x + hspeed, y, oBlockParent) {
         }else{
             move_outside_all(0, abs(hspeed)); //move outside object
         }
-    }
+	}
 }
 
 //Player will teleport to correct location in room when they go to the edge.

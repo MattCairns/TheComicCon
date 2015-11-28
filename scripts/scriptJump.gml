@@ -1,8 +1,6 @@
 scriptGetInputs();
 detectWallsInRoom();
 
-sprite_index = sPlayerJump;
-
 if(image_index == 9.9){ //if reached last frame of jump or already falling
     state = state.fall;
 }
@@ -17,5 +15,4 @@ if(gravity == 0 && vspeed == 0 && keyJump){ //if on floor and want to jump again
 }
 
 scriptMovement(0.4);
-
 scriptCollisionGrav();

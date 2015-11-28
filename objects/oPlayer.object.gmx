@@ -93,12 +93,29 @@ image_speed = 0.3;
             <string>///Movement code
 mask_index = sPlayerStanding;
 switch(state){
-    case state.stand: scriptStand(); break;
-    case state.run: scriptRun(); break;
-    case state.jump: scriptJump(); break;
-    case state.fall: scriptFall(); break;
-    case state.ladder: scriptLadder(); break;
-    case state.moveObject: scriptMoveObjects(); break;
+    case state.stand: 
+        sprite_index = sPlayerStanding; 
+        scriptStand();
+        break;
+    case state.run: 
+        sprite_index = sPlayerRunning;
+        scriptRun(); 
+        break;
+    case state.jump: 
+        sprite_index = sPlayerJump;
+        scriptJump();
+        break;
+    case state.fall: 
+        sprite_index = sPlayerFall;
+        scriptFall();
+        break;
+    case state.ladder:
+        sprite_index = sPlayerStanding;  
+        scriptLadder(); 
+        break;
+    case state.moveObject: 
+        scriptMoveObjects(); 
+        break;
 }
 
 </string>

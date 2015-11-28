@@ -1,8 +1,6 @@
 scriptGetInputs();
 detectWallsInRoom();
 
-sprite_index = sPlayerStanding;
-
 if(keyLeft xor keyRight){   //non-inclusive because we do not want to run if both keys are pressed
     state = state.run;
 }
@@ -15,8 +13,11 @@ if(!place_meeting(x, y + 1, oBlockParent)){   //if free space under character
     state = state.fall;
 }
 
-if(place_meeting(x - 1, y, oTallMoveBox)) {
-    state = state.ladder;
+instanceLeft = instance_place(x - 50, y, oTallMoveBox);
+if(instanceLeft != -4) {
+    if(place_meeting(x + 3, y, oTallMoveBox)) {
+        state = state.ladder;
+    }
 }
 
 scriptCollisionGrav();
