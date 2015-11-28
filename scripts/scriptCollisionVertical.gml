@@ -6,7 +6,8 @@ instanceBelow = instance_place(x, y + 50, oWall); //if wall is underneath
 if(instanceBelow != -4){
     with(instanceBelow){
         if(up){ //if wall is up
-           global.blockBelowIsUp = true; //do not move the block down
+            show_debug_message("up");
+            global.blockBelowIsUp = true; //do not move the block down
         }
     }
 }
