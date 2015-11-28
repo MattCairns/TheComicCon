@@ -14,12 +14,18 @@ if(!place_meeting(x, y + vspeed + 1, oBlockParent)){    //if y coord for next st
 //if player runs into a wall, stop them moving
 if place_meeting(x + hspeed, y, oBlockParent) {
     if hspeed > 0 {
-        move_outside_all(-180, abs(hspeed))
-       
+        if(!place_meeting(x, y + 1, oBoundary)){ //if in air
+            hspeed = -1; //push outside object to fall
+        }else{
+            move_outside_all(-180, abs(hspeed)); //move outside object
+        }
     }
     else if hspeed < 0 {
-        move_outside_all(0, abs(hspeed))
-        
+        if(!place_meeting(x, y + 1, oBoundary)){ //if in air
+            hspeed = 1; //push outside object to fall
+        }else{
+            move_outside_all(0, abs(hspeed)); //move outside object
+        }
     }
 }
 
