@@ -1,6 +1,7 @@
 scriptGetInputs();
 detectWallsInRoom();
 
+
 if(hspeed == 0 && !(keyLeft xor keyRight)){ //stops stand animation if switching direction
     state = state.stand;
 }
@@ -29,4 +30,3 @@ if(instanceLeft != -4) {
 scriptCollisionGrav();
 
 scriptMovement(0.6);
-
