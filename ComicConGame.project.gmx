@@ -49,7 +49,6 @@
       </scripts>
     </scripts>
     <scripts name="block">
-      <script>scripts\scriptBlockController.gml</script>
       <script>scripts\moveBlockUp.gml</script>
       <script>scripts\checkBlocksInRoom.gml</script>
       <script>scripts\moveBlockDown.gml</script>
