@@ -21,9 +21,9 @@
     </sprites>
     <sprite>sprites\sBlockStop</sprite>
     <sprite>sprites\sDeathMessage</sprite>
+    <sprite>sprites\sBackgroundComicFrame</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\backgroundComicFrame</background>
     <background>background\backgroundOutdoors</background>
     <background>background\menuBackground</background>
   </backgrounds>
@@ -79,6 +79,7 @@
     <objects name="Boundries">
       <object>objects\oBlockStop</object>
       <object>objects\oBoundary</object>
+      <object>objects\oBackgroundComicFrame</object>
     </objects>
     <objects name="mainMenu">
       <object>objects\oButton</object>
