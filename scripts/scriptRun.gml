@@ -21,14 +21,14 @@ if(keyMoveObject && place_meeting(x+hspeed+sprite_width/10+1, y, oMoveBox)) {
     state = state.moveObject;
 }
 
-if(place_meeting(x - 1, y, oTallMoveBox)) {
-    state = state.ladder;
+instanceLeft = instance_place(x - 50, y, oTallMoveBox);
+if(instanceLeft != -4) {
+    if(place_meeting(x + 3, y, oTallMoveBox)) {
+        state = state.ladder;
+    }
 }
 
-
-
- //If this does not come before movement then player gets stuck in things.
-
+//If this does not come before movement then player gets stuck in things.
 scriptCollisionGrav();
 
 //LEFT AND RIGHT

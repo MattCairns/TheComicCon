@@ -49,13 +49,15 @@
     </scripts>
     <scripts name="block">
       <script>scripts\scriptBlockController.gml</script>
-      <script>scripts\scriptCollisionBlocks.gml</script>
-      <script>scripts\scriptCollisionWalls.gml</script>
-      <script>scripts\scriptCollisionAll.gml</script>
-      <script>scripts\scriptCollisionVertical.gml</script>
       <script>scripts\moveBlockUp.gml</script>
       <script>scripts\checkBlocksInRoom.gml</script>
       <script>scripts\moveBlockDown.gml</script>
+      <scripts name="collision">
+        <script>scripts\scriptCollisionAll.gml</script>
+        <script>scripts\scriptCollisionWalls.gml</script>
+        <script>scripts\scriptCollisionBlocks.gml</script>
+        <script>scripts\scriptCollisionVertical.gml</script>
+      </scripts>
     </scripts>
     <script>scripts\collision_rectangle_r.gml</script>
   </scripts>
