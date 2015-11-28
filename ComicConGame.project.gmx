@@ -38,10 +38,14 @@
       <script>scripts\scriptStand.gml</script>
       <script>scripts\scriptRun.gml</script>
       <script>scripts\scriptJump.gml</script>
-      <script>scripts\scriptMoveObjects.gml</script>
       <script>scripts\scriptFall.gml</script>
       <script>scripts\scriptCollisionGrav.gml</script>
       <script>scripts\detectWallsInRoom.gml</script>
+      <scripts name="moveBlocks">
+        <script>scripts\scriptMoveObjects.gml</script>
+        <script>scripts\scriptMoveObjectLeft.gml</script>
+        <script>scripts\scriptMoveObjectRight.gml</script>
+      </scripts>
     </scripts>
     <scripts name="block">
       <script>scripts\scriptBlockController.gml</script>
