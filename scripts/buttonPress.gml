@@ -23,7 +23,7 @@ if(place_meeting(x, y, oPlayer)) {
                 for(i = 0; i < 6; i++){
                     moveBlockDown(global.instanceId);
                 }
-                buttonPressed = true;
+                instance_destroy();
             }
         }
     }

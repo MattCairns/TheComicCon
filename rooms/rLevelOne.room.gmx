@@ -33,7 +33,7 @@ global.blocksArray[0] = zeroArray;
 oneArray[0] = 3
 oneArray[1] = instance_create( 448, 375, oTallMoveBox );
 oneArray[2] = instance_create( 1088, 375, oTallMoveBox );
-oneArray[3] = instance_create( 256, 797, oTallMoveBox );
+oneArray[3] = instance_create( 300, 797, oTallMoveBox );
 
 global.blocksArray[1] = oneArray;</code>
   <enableViews>0</enableViews>
@@ -90,7 +90,7 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBoundary" x="694" y="442" name="inst_99073432" locked="0" code="" scaleX="140" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1375" y="412" name="inst_42CCC725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="34" y="209" name="inst_D6AF7ECC" locked="0" code="" scaleX="0.272727280855179" scaleY="50" colour="4294967295" rotation="0"/>
-    <instance objName="oBoundary" x="102" y="867" name="inst_D8C147AE" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="103" y="867" name="inst_D8C147AE" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="1375" y="704" name="inst_BDF5DC9F" locked="0" code="" scaleX="1" scaleY="50" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="1108" y="867" name="inst_5CAFFC3A" locked="0" code="" scaleX="80" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPressurePad" x="1177" y="408" name="inst_920632E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -98,6 +98,9 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBoundary" x="385" y="927" name="inst_9A51FBEF" locked="0" code="" scaleX="7.66666650772095" scaleY="0.555555582046509" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="320" y="896" name="inst_7F71B6A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="345" y="927" name="inst_D824BDDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="429" y="927" name="inst_E7451D63" locked="0" code="" scaleX="0.5" scaleY="13" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="567" y="995" name="inst_178ED340" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="425" y="927" name="inst_06B04F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="832" y="448" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_A75F7D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

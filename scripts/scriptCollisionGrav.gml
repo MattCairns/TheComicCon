@@ -5,13 +5,14 @@ if(!place_meeting(x, y + vspeed + 1, oBlockParent)){    //if y coord for next st
 }else{
     //When player hits ground set velocities to 0 and move player to ground height.
     move_contact_all(270 , abs(vspeed))
-    gravity = 0;   
-    vspeed = 0; 
+    gravity = 0;
+    vspeed = 0;
 }
 
 //HORIZONTAL COLLISION
 //if player runs into a wall, stop them moving
-if place_meeting(x + hspeed, y, oBlockParent) {
+
+if(place_meeting(x + hspeed, y, oBlockParent)){
     if hspeed > 0 {
         if(!place_meeting(x, y + 1, oBoundary)){ //if in air
             hspeed = -1; //push outside object to fall
