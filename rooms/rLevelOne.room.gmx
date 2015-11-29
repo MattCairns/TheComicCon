@@ -78,7 +78,7 @@ global.blocksArray[1] = oneArray;</code>
   <instances>
     <instance objName="oPlayer" x="128" y="370" name="inst_56F6F449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="700" y="447" name="inst_0613C6BC" locked="0" code="" scaleX="1.85000002384186" scaleY="85" colour="4294967295" rotation="0"/>
-    <instance objName="oBoundary" x="5" y="866" name="inst_FBA6F371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="-116" y="866" name="inst_FBA6F371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1380" y="448" name="inst_2F3448AD" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="28" y="878" name="inst_BC96D58F" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oDebugConsole" x="64" y="64" name="inst_DCA281B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -87,7 +87,7 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBlockStop" x="128" y="448" name="inst_2836FE48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="384" y="448" name="inst_C2A37585" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="386" y="860" name="inst_23CDD6D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBoundary" x="694" y="442" name="inst_99073432" locked="0" code="" scaleX="140" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="oBoundary" x="731" y="442" name="inst_99073432" locked="0" code="" scaleX="140" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1375" y="412" name="inst_42CCC725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="34" y="209" name="inst_D6AF7ECC" locked="0" code="" scaleX="0.272727280855179" scaleY="50" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="103" y="867" name="inst_D8C147AE" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
@@ -96,7 +96,6 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oPressurePad" x="1177" y="408" name="inst_920632E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPressurePad" x="387" y="830" name="inst_278A3AA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="385" y="927" name="inst_9A51FBEF" locked="0" code="" scaleX="7.66666650772095" scaleY="0.555555582046509" colour="4294967295" rotation="0"/>
-    <instance objName="oBoundary" x="320" y="896" name="inst_7F71B6A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="345" y="927" name="inst_D824BDDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="429" y="927" name="inst_E7451D63" locked="0" code="" scaleX="0.5" scaleY="13" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="567" y="995" name="inst_178ED340" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>

@@ -31,12 +31,12 @@ if(place_meeting(x + hspeed, y, oBlockParent)){
 
 //Player will teleport to correct location in room when they go to the edge.
 if(x >= room_width && y < room_height/2 && hspeed > 0) {
-    x = ((x mod room_width) + room_width) mod room_width
-    y = 900-(sprite_height/2)-40
+    x = ((x mod room_width) + room_width) mod room_width;
+    y = 794 - (372 - y);
 }
 
 if(x <= -sprite_width/2 && y >= room_height/2 && hspeed < 0) {
-    x = room_width
-    y = 900-(room_height/2)-(sprite_height/2)-10
+    x = room_width;
+    y = 372 - (794 - y);
 }
 
