@@ -17,4 +17,3 @@ for(i = location[1]; i < location[2]; i++){ //loop through only elements after t
         scriptCollisionAll(); //check for collisions
     }
 }
-

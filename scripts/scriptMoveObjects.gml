@@ -14,9 +14,8 @@ with(global.instanceId) {
 }
     
 //Change speed of player to equal block speed
-
 hspeed = sign(hspeed)*3
-if(!keyMoveObject or global.pathBlocked) { //or if the path is blocked as above
+if(!keyMoveObject or global.pathBlocked or (!keyLeft and !keyRight)) { //or if the path is blocked as above
 
         for(i = 0; i < instance_number(oBlockParent); i++){ //loop through all blocks
             with(instance_find(oBlockParent, i)){
@@ -24,8 +23,9 @@ if(!keyMoveObject or global.pathBlocked) { //or if the path is blocked as above
             }
         }
     
-    state = state.run;
-    
+    state = state.stand;
 }
+
+
 
 scriptCollisionGrav();
