@@ -13,6 +13,7 @@
     <sprites name="menus">
       <sprite>sprites\sButtonResume</sprite>
       <sprite>sprites\sButtonRestart</sprite>
+      <sprite>sprites\sButtonStart</sprite>
       <sprite>sprites\sPaused</sprite>
     </sprites>
     <sprites name="player">
@@ -35,8 +36,6 @@
       <scripts name="mainMenu">
         <script>scripts\scriptButton.gml</script>
       </scripts>
-      <script>scripts\scriptChangeRooms.gml</script>
-      <script>scripts\scriptPause.gml</script>
     </scripts>
     <scripts name="player">
       <script>scripts\scriptGetInputs.gml</script>
@@ -87,6 +86,7 @@
       <object>objects\oButtonParent</object>
       <object>objects\oButtonResume</object>
       <object>objects\oButtonRestart</object>
+      <object>objects\oButtonStart</object>
     </objects>
     <object>objects\oDeathState</object>
     <object>objects\oDebugConsole</object>
@@ -94,8 +94,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rInit</room>
-    <room>rooms\rLevelOne</room>
     <room>rooms\rMainMenu</room>
+    <room>rooms\rLevelOne</room>
     <room>rooms\rPause</room>
   </rooms>
   <help>

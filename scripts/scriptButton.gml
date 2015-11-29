@@ -6,10 +6,16 @@ if(position_meeting(mouse_x, mouse_y, self)) {
 }
 
 if(position_meeting(mouse_x, mouse_y, oButtonResume) && mouse_check_button_released(mb_left)){   //if a button is pressed
-    room_goto(global.lastRoom);
+    room_goto(rLevelOne);
     global.pause = 0;
 }
 
 if(position_meeting(mouse_x, mouse_y, oButtonRestart) && mouse_check_button_released(mb_left)){   //if a button is pressed
     game_restart(); //Needs work
+    global.pause = 0;
+}
+
+if(position_meeting(mouse_x, mouse_y, oButtonStart) && mouse_check_button_released(mb_left)){   //if a button is pressed
+    room_goto(rLevelOne);
+    global.pause = 0;
 }
