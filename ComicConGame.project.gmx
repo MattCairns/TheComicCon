@@ -12,6 +12,7 @@
     <sprite>sprites\sPressurePad</sprite>
     <sprites name="menus">
       <sprite>sprites\sButtonResume</sprite>
+      <sprite>sprites\sButtonRestart</sprite>
       <sprite>sprites\sPaused</sprite>
     </sprites>
     <sprites name="player">
@@ -85,6 +86,7 @@
     <objects name="menus">
       <object>objects\oButtonParent</object>
       <object>objects\oButtonResume</object>
+      <object>objects\oButtonRestart</object>
     </objects>
     <object>objects\oDeathState</object>
     <object>objects\oDebugConsole</object>
@@ -94,6 +96,7 @@
     <room>rooms\rInit</room>
     <room>rooms\rLevelOne</room>
     <room>rooms\rMainMenu</room>
+    <room>rooms\rPause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

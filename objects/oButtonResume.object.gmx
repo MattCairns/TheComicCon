@@ -3,7 +3,7 @@
   <spriteName>sButtonResume</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-2100</depth>
   <persistent>0</persistent>
   <parentName>oButtonParent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
