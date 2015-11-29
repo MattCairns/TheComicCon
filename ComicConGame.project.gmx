@@ -10,8 +10,9 @@
     <sprite>sprites\sTallMoveBox</sprite>
     <sprite>sprites\sMoveBox</sprite>
     <sprite>sprites\sPressurePad</sprite>
-    <sprites name="mainMenu">
-      <sprite>sprites\sButton</sprite>
+    <sprites name="menus">
+      <sprite>sprites\sButtonResume</sprite>
+      <sprite>sprites\sPaused</sprite>
     </sprites>
     <sprites name="player">
       <sprite>sprites\sPlayerStanding</sprite>
@@ -81,8 +82,9 @@
       <object>objects\oBoundary</object>
       <object>objects\oBackgroundComicFrame</object>
     </objects>
-    <objects name="mainMenu">
-      <object>objects\oButton</object>
+    <objects name="menus">
+      <object>objects\oButtonParent</object>
+      <object>objects\oButtonResume</object>
     </objects>
     <object>objects\oDeathState</object>
     <object>objects\oDebugConsole</object>
