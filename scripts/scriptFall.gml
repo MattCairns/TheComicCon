@@ -7,6 +7,6 @@ if(place_meeting(x, (y + vspeed) + 1, oBlockParent) && hspeed == 0){    //if abo
     state = state.run;
 }
 
-scriptMovement(0.6);
+scriptMovement(0.6, 0.1);
 
 scriptCollisionGrav();
