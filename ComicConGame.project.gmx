@@ -25,6 +25,7 @@
     <sprite>sprites\sBlockStop</sprite>
     <sprite>sprites\sDeathMessage</sprite>
     <sprite>sprites\sBackgroundComicFrame</sprite>
+    <sprite>sprites\sWinMessage</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundOutdoors</background>
@@ -89,9 +90,10 @@
       <object>objects\oButtonStart</object>
     </objects>
     <object>objects\oDeathState</object>
+    <object>objects\oWinState</object>
     <object>objects\oDebugConsole</object>
     <object>objects\oPause</object>
-    <object>objects\oWinState</object>
+    <object>objects\oWinBox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMainMenu</room>

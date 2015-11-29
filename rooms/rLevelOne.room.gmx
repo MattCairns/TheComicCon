@@ -76,7 +76,7 @@ global.blocksArray[1] = oneArray;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oPlayer" x="89" y="369" name="inst_56F6F449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="832" y="704" name="inst_56F6F449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="700" y="447" name="inst_0613C6BC" locked="0" code="" scaleX="1.85000002384186" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="-116" y="866" name="inst_FBA6F371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1380" y="448" name="inst_2F3448AD" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
@@ -101,7 +101,7 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBoundary" x="425" y="927" name="inst_06B04F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oDebugConsole" x="64" y="64" name="inst_C3B22933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPause" x="128" y="64" name="inst_E31F8877" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWinState" x="1059" y="712" name="inst_77FA62DC" locked="0" code="" scaleX="70" scaleY="30" colour="4294967295" rotation="0"/>
+    <instance objName="oWinBox" x="1059" y="712" name="inst_77FA62DC" locked="0" code="" scaleX="70" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="576" y="896" name="inst_46AF1869" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
