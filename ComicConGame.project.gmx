@@ -34,7 +34,6 @@
         <script>scripts\scriptButton.gml</script>
       </scripts>
       <script>scripts\scriptChangeRooms.gml</script>
-      <script>scripts\loseRoom.gml</script>
     </scripts>
     <scripts name="player">
       <script>scripts\scriptGetInputs.gml</script>
@@ -90,7 +89,6 @@
   <rooms name="rooms">
     <room>rooms\rLevelOne</room>
     <room>rooms\rMainMenu</room>
-    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
