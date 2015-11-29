@@ -91,6 +91,7 @@
     <object>objects\oDeathState</object>
     <object>objects\oDebugConsole</object>
     <object>objects\oPause</object>
+    <object>objects\oWinState</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMainMenu</room>
