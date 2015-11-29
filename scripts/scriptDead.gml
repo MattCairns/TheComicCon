@@ -1,5 +1,6 @@
 if(y > room_height) {
     oPlayer.visible = false;
+    y = 2000;
     inst = instance_create(700, 450, oDeathState);
     with(inst) {
         image_alpha = 0.3
