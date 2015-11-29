@@ -60,6 +60,7 @@ if(global.pause) {
     draw_set_color(c_white);
     draw_set_alpha(1);
     draw_text(room_width/2, room_height/2, "Game Paused");
+    draw_set_halign(fa_left);
     draw_set_color(c_black);
 }
     
@@ -87,11 +88,15 @@ if(global.pause) {
             <kind>1</kind>
             <string>//If the game is not paused, create the snapshot and pause the game, else delete the snapshot from memory and unpause the game.
 if(global.pause = 0) {   
+    //Save a screenshot to use as background while paaused
     screen_save("pausebg.png");
     background = sprite_add("pausebg.png", 0, false, true, 1400, 900);
     instance_deactivate_all(true);
     global.pause = 1;
 } else {
+    if(file_exists("pausebg.png")) {
+        file_delete("pausebg.png");
+    }
     instance_activate_all();
     global.pause = 0;
 }

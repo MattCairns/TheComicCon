@@ -81,7 +81,6 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBoundary" x="-116" y="866" name="inst_FBA6F371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="1380" y="448" name="inst_2F3448AD" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="28" y="878" name="inst_BC96D58F" locked="0" code="" scaleX="1.5" scaleY="85" colour="4294967295" rotation="0"/>
-    <instance objName="oDebugConsole" x="64" y="64" name="inst_DCA281B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="1024" y="375" name="inst_476C4F56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="192" y="798" name="inst_EEAEB234" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockStop" x="128" y="448" name="inst_2836FE48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

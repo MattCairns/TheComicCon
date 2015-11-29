@@ -84,8 +84,8 @@
     <objects name="mainMenu">
       <object>objects\oButton</object>
     </objects>
-    <object>objects\oDebugConsole</object>
     <object>objects\oDeathState</object>
+    <object>objects\oDebugConsole</object>
     <object>objects\oPause</object>
   </objects>
   <rooms name="rooms">
