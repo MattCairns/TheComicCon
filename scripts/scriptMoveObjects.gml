@@ -4,7 +4,7 @@ detectWallsInRoom();
 global.instanceId = instance_place(x+hspeed, y, oBlockParent);  //gets the block that you are moving
 global.pathBlocked = false; //used if the one you are moving is blocked
 
-with(global.instanceId) {   
+with(global.instanceId) {
     if (!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x + 3, y, oBlockStop) and !place_meeting(x - 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockStop)){  //if there is nothing in the way
         scriptMove();
     }else{

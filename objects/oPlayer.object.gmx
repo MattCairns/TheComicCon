@@ -51,7 +51,7 @@ image_speed = 0.3;
           <argument>
             <kind>1</kind>
             <string>///Reset if dead
-inRoom = room_get_name(room)
+inRoom = room
 room_persistent=false
 room=inRoom
 </string>

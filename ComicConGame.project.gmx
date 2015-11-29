@@ -93,7 +93,6 @@
     <object>objects\oPause</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rInit</room>
     <room>rooms\rMainMenu</room>
     <room>rooms\rLevelOne</room>
     <room>rooms\rPause</room>

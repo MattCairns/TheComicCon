@@ -100,6 +100,7 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBoundary" x="567" y="995" name="inst_178ED340" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="425" y="927" name="inst_06B04F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oDebugConsole" x="64" y="64" name="inst_C3B22933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPause" x="128" y="64" name="inst_E31F8877" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="832" y="448" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_A75F7D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

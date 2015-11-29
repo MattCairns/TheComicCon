@@ -21,7 +21,7 @@ if(keyMoveObject && place_meeting(x+hspeed+sprite_width/10+1, y, oMoveBox) && pl
 
 instanceLeft = instance_place(x - 50, y, oTallMoveBox);
 if(instanceLeft != -4) {
-    if(place_meeting(x + 3, y, oTallMoveBox)) {
+    if(place_meeting(x - 1, y, oTallMoveBox)) {
         state = state.ladder;
     }
 }

@@ -15,7 +15,7 @@ if(!place_meeting(x, y + 1, oBlockParent)){   //if free space under character
 
 instanceLeft = instance_place(x - 50, y, oTallMoveBox);
 if(instanceLeft != -4) {
-    if(place_meeting(x + 3, y, oTallMoveBox)) {
+    if(place_meeting(x - 1 , y, oTallMoveBox)) {
         state = state.ladder;
     }
 }

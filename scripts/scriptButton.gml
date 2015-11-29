@@ -6,7 +6,7 @@ if(position_meeting(mouse_x, mouse_y, self)) {
 }
 
 if(position_meeting(mouse_x, mouse_y, oButtonResume) && mouse_check_button_released(mb_left)){   //if a button is pressed
-    room_goto(rLevelOne);
+    room_goto(global.lastRoom);
     global.pause = 0;
 }
 

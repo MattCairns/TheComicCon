@@ -87,7 +87,7 @@ if(global.pause = 0) {
     screen_save("pausebg.png");
     background = sprite_add("pausebg.png", 0, false, true, 1400, 900);
     
-    global.lastRoom = room_get_name(room);
+    global.lastRoom = room;
     room_goto(rPause); 
     global.pause = 1;
      
@@ -95,7 +95,7 @@ if(global.pause = 0) {
     if(file_exists("pausebg.png")) {
         file_delete("pausebg.png");
     }
-    room_goto(rLevelOne);
+    room_goto(global.lastRoom);
     
     global.pause = 0;
 }
