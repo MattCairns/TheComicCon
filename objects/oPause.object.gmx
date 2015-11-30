@@ -51,7 +51,7 @@ global.pause = 0;
             <kind>1</kind>
             <string>///Draw overlay
 if(global.pause) {
-    draw_sprite(background, 0, room_width, room_height);
+    draw_sprite(global.background, 0, room_width, room_height);
     draw_set_color(c_black);
     draw_set_alpha(0.5);
     draw_rectangle(0, 0, room_width, room_height, 0);
@@ -85,8 +85,8 @@ if(global.pause) {
 if(global.pause = 0) {   
     //Save a screenshot to use as background while paused
     screen_save("pausebg.png");
-    background = sprite_add("pausebg.png", 0, false, true, 1400, 900);
-    show_debug_message("tets");
+    global.background = sprite_add("pausebg.png", 0, false, true, 1400, 900);
+    
     global.lastRoom = room;
     room_goto(rPause);
     global.pause = 1;
