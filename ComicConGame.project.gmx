@@ -9,22 +9,24 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sTallMoveBox</sprite>
     <sprite>sprites\sMoveBox</sprite>
+    <sprite>sprites\sBlockStop</sprite>
     <sprite>sprites\sPressurePad</sprite>
-    <sprites name="menus">
-      <sprite>sprites\sButtonResume</sprite>
-      <sprite>sprites\sButtonRestart</sprite>
-      <sprite>sprites\sButtonStart</sprite>
-      <sprite>sprites\sPaused</sprite>
-    </sprites>
     <sprites name="player">
       <sprite>sprites\sPlayerStanding</sprite>
       <sprite>sprites\sPlayerRunning</sprite>
       <sprite>sprites\sPlayerJump</sprite>
       <sprite>sprites\sPlayerFall</sprite>
     </sprites>
-    <sprite>sprites\sBlockStop</sprite>
-    <sprite>sprites\sDeathMessage</sprite>
+    <sprites name="menus">
+      <sprite>sprites\sButtonResume</sprite>
+      <sprite>sprites\sButtonRestart</sprite>
+      <sprite>sprites\sButtonMainMenu</sprite>
+      <sprite>sprites\sButtonStart</sprite>
+      <sprite>sprites\sButtonQuit</sprite>
+      <sprite>sprites\sPaused</sprite>
+    </sprites>
     <sprite>sprites\sBackgroundComicFrame</sprite>
+    <sprite>sprites\sDeathMessage</sprite>
     <sprite>sprites\sWinMessage</sprite>
   </sprites>
   <backgrounds name="background">
@@ -88,6 +90,8 @@
       <object>objects\oButtonResume</object>
       <object>objects\oButtonRestart</object>
       <object>objects\oButtonStart</object>
+      <object>objects\oButtonMainMenu</object>
+      <object>objects\oButtonQuit</object>
     </objects>
     <object>objects\oDeathState</object>
     <object>objects\oWinState</object>
