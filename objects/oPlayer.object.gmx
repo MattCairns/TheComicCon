@@ -57,7 +57,8 @@ room_persistent=false
 if room==rLevel01 room = rLevel02;
 if room==rLevel02 room = rLevel03;
 if room==rLevel03 room = rLevel04;
-if room==rLevel04 room = rLevel04;
+if room==rLevel04 room = rLevel05;
+if room==rLevel05 room = rLevel05;
 </string>
           </argument>
         </arguments>

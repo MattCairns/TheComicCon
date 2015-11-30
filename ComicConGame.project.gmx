@@ -101,6 +101,7 @@
     <room>rooms\rLevel02</room>
     <room>rooms\rLevel03</room>
     <room>rooms\rLevel04</room>
+    <room>rooms\rLevel05</room>
     <room>rooms\rPause</room>
   </rooms>
   <help>
