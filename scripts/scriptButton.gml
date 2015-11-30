@@ -11,7 +11,8 @@ if(position_meeting(mouse_x, mouse_y, oButtonResume) && mouse_check_button_relea
 }
 
 if(position_meeting(mouse_x, mouse_y, oButtonRestart) && mouse_check_button_released(mb_left)){   //if a button is pressed
-    game_restart(); //Needs work
+    global.roomRestart = true;
+    room_goto(global.lastRoom);
     global.pause = 0;
 }
 
