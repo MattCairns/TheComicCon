@@ -6,7 +6,7 @@ global.instanceId = instance_place(x+hspeed, y, oBlockParent);  //gets the block
 global.pathBlocked = false; //used if the one you are moving is blocked
 
 with(global.instanceId) {
-    if (!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x + 3, y, oBlockStop) or !place_meeting(x - 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockStop)){  //if there is nothing in the way
+    if (!place_meeting(x + 3, y, oBlockParent) and !place_meeting(x + 3, y, oBlockStop) and !place_meeting(x - 3, y, oBlockParent) and !place_meeting(x - 3, y, oBlockStop)){  //if there is nothing in the way
         scriptMove();
     }else{
         global.pathBlocked = true; //set the variable for later
