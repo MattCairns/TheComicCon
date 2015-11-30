@@ -24,6 +24,8 @@
       <sprite>sprites\sButtonStart</sprite>
       <sprite>sprites\sButtonQuit</sprite>
       <sprite>sprites\sPaused</sprite>
+      <sprite>sprites\sButtonLevel</sprite>
+      <sprite>sprites\sButtonLevelSelect</sprite>
     </sprites>
     <sprite>sprites\sBackgroundComicFrame</sprite>
     <sprite>sprites\sDeathMessage</sprite>
@@ -92,6 +94,8 @@
       <object>objects\oButtonStart</object>
       <object>objects\oButtonMainMenu</object>
       <object>objects\oButtonQuit</object>
+      <object>objects\oButtonLevelSelect</object>
+      <object>objects\oButtonLevel</object>
     </objects>
     <object>objects\oDeathState</object>
     <object>objects\oWinState</object>
@@ -107,6 +111,7 @@
     <room>rooms\rLevel04</room>
     <room>rooms\rLevel05</room>
     <room>rooms\rPause</room>
+    <room>rooms\rLevelSelect</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
