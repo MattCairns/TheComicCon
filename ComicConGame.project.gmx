@@ -24,12 +24,12 @@
       <sprite>sprites\sButtonStart</sprite>
       <sprite>sprites\sButtonQuit</sprite>
       <sprite>sprites\sPaused</sprite>
-      <sprite>sprites\sButtonLevel</sprite>
       <sprite>sprites\sButtonLevelSelect</sprite>
     </sprites>
     <sprite>sprites\sBackgroundComicFrame</sprite>
     <sprite>sprites\sDeathMessage</sprite>
     <sprite>sprites\sWinMessage</sprite>
+    <sprite>sprites\sMissingTexture</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgroundOutdoors</background>
