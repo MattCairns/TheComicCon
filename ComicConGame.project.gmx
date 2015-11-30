@@ -16,6 +16,10 @@
       <sprite>sprites\sPlayerRunning</sprite>
       <sprite>sprites\sPlayerJump</sprite>
       <sprite>sprites\sPlayerFall</sprite>
+      <sprite>sprites\sPlayerStanding2</sprite>
+      <sprite>sprites\sPlayerRunning2</sprite>
+      <sprite>sprites\sPlayerJump2</sprite>
+      <sprite>sprites\sPlayerFall2</sprite>
     </sprites>
     <sprites name="menus">
       <sprite>sprites\sButtonResume</sprite>
