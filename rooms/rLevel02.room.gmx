@@ -10,21 +10,13 @@
   <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>enum state{
-    stand,
-    run,
-    jump,
-    fall,
-    ladder,
-    moveObject
-}
-
-comicFrame = instance_create(700, 450, oBackgroundComicFrame);
+  <code>comicFrame = instance_create(700, 450, oBackgroundComicFrame);
 
 //create the blocks for this room
 global.arrayLength = 1; //number of linked groups for the room
-zeroArray[0] = 1    //number of blocks in the group
-zeroArray[1] = instance_create( 128, 830, oMoveBox );
+zeroArray[0] = 2    //number of blocks in the group
+zeroArray[1] = instance_create( 1033, 407, oMoveBox );
+zeroArray[2] = instance_create( 320, 829, oMoveBox );
 
 global.blocksArray[0] = zeroArray;</code>
   <enableViews>0</enableViews>
@@ -82,7 +74,7 @@ global.blocksArray[0] = zeroArray;</code>
     <instance objName="oPause" x="128" y="64" name="inst_E31F8877" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWinBox" x="1059" y="713" name="inst_77FA62DC" locked="0" code="" scaleX="70" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="oBlockParent" x="256" y="448" name="inst_A5315D35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="512" y="797" name="inst_CE4F722C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="175" y="797" name="inst_CE4F722C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="832" y="448" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_A75F7D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

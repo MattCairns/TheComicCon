@@ -83,12 +83,12 @@ if(global.pause) {
             <kind>1</kind>
             <string>//If the game is not paused, create the snapshot and pause the game, else delete the snapshot from memory and unpause the game.
 if(global.pause = 0) {   
-    //Save a screenshot to use as background while paaused
+    //Save a screenshot to use as background while paused
     screen_save("pausebg.png");
     background = sprite_add("pausebg.png", 0, false, true, 1400, 900);
-    
+    show_debug_message("tets");
     global.lastRoom = room;
-    room_goto(rPause); 
+    room_goto(rPause);
     global.pause = 1;
      
 } else {
