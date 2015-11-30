@@ -16,7 +16,7 @@
 global.arrayLength = 2; //number of linked groups for the room
 zeroArray[0] = 2    //number of blocks in the group
 zeroArray[1] = instance_create( 1216, 406, oMoveBox );
-zeroArray[2] = instance_create( 357, 828, oMoveBox );
+zeroArray[2] = instance_create( 457, 828, oMoveBox );
 
 global.blocksArray[0] = zeroArray;
 
@@ -81,7 +81,7 @@ global.blocksArray[1] = oneArray;</code>
     <instance objName="oBlockParent" x="256" y="448" name="inst_A5315D35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="1111" y="374" name="inst_A236E85E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPressurePad" x="832" y="406" name="inst_BABDAA1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="399" y="796" name="inst_2E8046C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="499" y="796" name="inst_2E8046C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="832" y="448" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_A75F7D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
