@@ -45,6 +45,10 @@
       <scripts name="mainMenu">
         <script>scripts\scriptButton.gml</script>
       </scripts>
+      <scripts name="levelSelect">
+        <script>scripts\createRoomArray.gml</script>
+        <script>scripts\createButtonArray.gml</script>
+      </scripts>
     </scripts>
     <scripts name="player">
       <script>scripts\scriptGetInputs.gml</script>
@@ -79,6 +83,10 @@
       <script>scripts\buttonPress.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fontLevelSelect</font>
+    <font>fonts\fontDefault</font>
+  </fonts>
   <objects name="objects">
     <object>objects\oBlockParent</object>
     <object>objects\oWall</object>
