@@ -29,6 +29,7 @@
       <sprite>sprites\sButtonQuit</sprite>
       <sprite>sprites\sPaused</sprite>
       <sprite>sprites\sButtonLevelSelect</sprite>
+      <sprite>sprites\sButtonLevels</sprite>
     </sprites>
     <sprite>sprites\sBackgroundComicFrame</sprite>
     <sprite>sprites\sDeathMessage</sprite>
