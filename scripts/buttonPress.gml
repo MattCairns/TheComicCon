@@ -23,6 +23,9 @@ if(place_meeting(x, y, oPlayer)) {
                 for(i = 0; i < 6; i++){
                     moveBlockDown(global.instanceId);
                 }
+
+                audio_play_sound(soundButtonPress, 0, false);
+                audio_sound_gain(soundButtonPress, 0.5, 0);
                 instance_destroy();
             }
         }

@@ -31,6 +31,12 @@ if(!keyMoveObject or global.pathBlocked or (!keyLeft and !keyRight)) { //or if t
     }
 }
 
-
+//Play sound
+if round(image_index) == 1 or round(image_index) == 4 {
+    if(!audio_is_playing(soundFootstep)) {
+        audio_play_sound(soundFootstep, 0, false);
+        audio_sound_gain(soundFootstep, 5, 0);
+    }
+}
 
 scriptCollisionGrav();
