@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\soundFootstep</sound>
+    <sound>sound\soundMusic0</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
@@ -85,6 +86,10 @@
     <scripts name="button">
       <script>scripts\buttonPress.gml</script>
     </scripts>
+    <scripts name="musicPlayer">
+      <script>scripts\scriptMusicInit.gml</script>
+      <script>scripts\scriptMusicPlayer.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fontLevelSelect</font>
@@ -117,6 +122,7 @@
     <object>objects\oDebugConsole</object>
     <object>objects\oPause</object>
     <object>objects\oWinBox</object>
+    <object>objects\oMusicPlayer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMainMenu</room>
