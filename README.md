@@ -17,3 +17,5 @@ Become a comic book character as you traverse comic panels and manipulate time t
 
 * Attribution 2.0 Generic (CC BY 2.0)
   * https://www.flickr.com/photos/jbcurio/5407729857/
+* Attribution 3.0 Unported (CC BY 3.0)
+  * http://opengameart.org/content/footsteps-leather-cloth-armor

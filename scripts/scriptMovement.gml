@@ -22,3 +22,9 @@ if(move < 0){   //if movement is to the left
         hspeed -= hsp; //slow down rapidly
     }
 }
+
+if round(image_index) == 1 or round(image_index) == 4 {
+    if(!audio_is_playing(soundFootstep)) {
+        audio_play_sound(soundFootstep, 0, false);
+    }
+}
