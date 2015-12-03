@@ -51,16 +51,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>i = irandom(10);
+            <string>xmax = 1200
+xmin = 200
+
+ymax = 700
+ymin = 200
+
+i = irandom(10);
 
 if(i == 1){
 
     i = irandom(5);
-    if (i = 1){effect_create_above(ef_firework ,irandom(700) + 700,irandom(350) + 450,irandom(10),c_blue)}
-    if (i = 2){effect_create_above(ef_firework ,irandom(700) + 700,irandom(350) + 450,irandom(10),c_red)}
-    if (i = 3){effect_create_above(ef_firework ,irandom(700) + 700,irandom(350) + 450,irandom(10),c_purple)}
-    if (i = 4){effect_create_above(ef_firework ,irandom(700) + 700,irandom(350) + 450,irandom(10),c_yellow)}
-    if (i = 5){effect_create_above(ef_firework ,irandom(700) + 700,irandom(350) + 450,irandom(10),c_green)}
+    if (i = 1){effect_create_above(ef_firework ,irandom_range(xmin, xmax) ,irandom_range(ymin, ymax) ,irandom(10),c_blue)}
+    if (i = 2){effect_create_above(ef_firework ,irandom_range(xmin, xmax) ,irandom_range(ymin, ymax) ,irandom(10),c_red)}
+    if (i = 3){effect_create_above(ef_firework ,irandom_range(xmin, xmax) ,irandom_range(ymin, ymax) ,irandom(10),c_purple)}
+    if (i = 4){effect_create_above(ef_firework ,irandom_range(xmin, xmax) ,irandom_range(ymin, ymax) ,irandom(10),c_yellow)}
+    if (i = 5){effect_create_above(ef_firework ,irandom_range(xmin, xmax) ,irandom_range(ymin, ymax) ,irandom(10),c_green)}
 
 }
 
