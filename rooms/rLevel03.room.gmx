@@ -15,8 +15,8 @@
 //create the blocks for this room
 global.arrayLength = 1; //number of linked groups for the room
 zeroArray[0] = 2    //number of blocks in the group
-zeroArray[1] = instance_create( 210, 406, oMoveBox );
-zeroArray[2] = instance_create( 74, 829, oMoveBox );
+zeroArray[1] = instance_create( 1033, 407, oMoveBox );
+zeroArray[2] = instance_create( 320, 829, oMoveBox );
 
 global.blocksArray[0] = zeroArray;</code>
   <enableViews>0</enableViews>
@@ -70,12 +70,11 @@ global.blocksArray[0] = zeroArray;</code>
     <instance objName="oBoundary" x="304" y="867" name="inst_D8C147AE" locked="0" code="" scaleX="80" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="1375" y="704" name="inst_BDF5DC9F" locked="0" code="" scaleX="1" scaleY="50" colour="4294967295" rotation="0"/>
     <instance objName="oBoundary" x="1108" y="867" name="inst_5CAFFC3A" locked="0" code="" scaleX="80" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDebugConsole" x="64" y="64" name="inst_C3B22933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPause" x="128" y="64" name="inst_E31F8877" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWinBox" x="1059" y="713" name="inst_77FA62DC" locked="0" code="" scaleX="70" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="oBlockParent" x="256" y="448" name="inst_A5315D35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="530" y="374" name="inst_CE4F722C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="797" y="374" name="inst_A236E85E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWall" x="206" y="796" name="inst_0CB4AB9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWall" x="175" y="797" name="inst_CE4F722C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="832" y="448" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_A75F7D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

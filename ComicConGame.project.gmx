@@ -132,6 +132,7 @@
     <room>rooms\rLevel03</room>
     <room>rooms\rLevel04</room>
     <room>rooms\rLevel05</room>
+    <room>rooms\rLevel06</room>
     <room>rooms\rPause</room>
     <room>rooms\rLevelSelect</room>
   </rooms>
