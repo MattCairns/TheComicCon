@@ -37,4 +37,8 @@ if(position_meeting(mouse_x, mouse_y, oButtonLevelSelect) && mouse_check_button_
     room_goto(rLevelSelect);
 }
 
+if(position_meeting(mouse_x, mouse_y, oButtonCredits) && mouse_check_button_released(mb_left)){   //if a button is pressed
+    room_goto(rCredits);
+}
+
 

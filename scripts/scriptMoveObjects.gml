@@ -18,12 +18,12 @@ with(global.instanceId) {
     
 hspeed = sign(oPlayer.hspeed)*3;
 if(!keyMoveObject or global.pathBlocked or (!keyLeft and !keyRight)) { //or if the path is blocked as above or player isnt holding any move keys.
-
-        for(i = 0; i < instance_number(oBlockParent); i++){ //loop through all blocks
-            with(instance_find(oBlockParent, i)){
-                hspeed = 0; //stop them moving
-            }
+    audio_stop_sound(soundDragging);
+    for(i = 0; i < instance_number(oBlockParent); i++){ //loop through all blocks
+        with(instance_find(oBlockParent, i)){
+            hspeed = 0; //stop them moving
         }
+    }
     if(!keyLeft and !keyRight) {
         state = state.stand;
     } else {
@@ -37,6 +37,11 @@ if round(image_index) == 1 or round(image_index) == 4 {
         audio_play_sound(soundFootstep, 0, false);
         audio_sound_gain(soundFootstep, 5, 0);
     }
+}
+
+if(!audio_is_playing(soundDragging)) {
+    audio_play_sound(soundDragging, 0, false);
+    audio_sound_gain(soundDragging, 1, 0);
 }
 
 scriptCollisionGrav();

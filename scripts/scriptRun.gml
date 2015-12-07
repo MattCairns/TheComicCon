@@ -36,6 +36,5 @@ if round(image_index) == 1 or round(image_index) == 4 {
     if(!audio_is_playing(soundFootstep)) {
 
         audio_play_sound(soundFootstep, 0, false);
-        audio_sound_gain(soundFootstep, 10, 0);
     }
 }

@@ -9,6 +9,7 @@
     <sound>sound\soundMusic0</sound>
     <sound>sound\soundButtonPress</sound>
     <sound>sound\soundFirework</sound>
+    <sound>sound\soundDragging</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
@@ -32,6 +33,7 @@
       <sprite>sprites\sButtonMainMenu</sprite>
       <sprite>sprites\sButtonStart</sprite>
       <sprite>sprites\sButtonQuit</sprite>
+      <sprite>sprites\sButtonCredits</sprite>
       <sprite>sprites\sPaused</sprite>
       <sprite>sprites\sButtonLevelSelect</sprite>
       <sprite>sprites\sButtonLevels</sprite>
@@ -118,6 +120,7 @@
       <object>objects\oButtonQuit</object>
       <object>objects\oButtonLevelSelect</object>
       <object>objects\oButtonLevel</object>
+      <object>objects\oButtonCredits</object>
     </objects>
     <object>objects\oDeathState</object>
     <object>objects\oWinState</object>
@@ -136,6 +139,7 @@
     <room>rooms\rLevel06</room>
     <room>rooms\rPause</room>
     <room>rooms\rLevelSelect</room>
+    <room>rooms\rCredits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

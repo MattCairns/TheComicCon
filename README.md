@@ -13,6 +13,7 @@ Become a comic book character as you traverse comic panels and manipulate time t
   * http://opengameart.org/content/3-crate-textures-w-bump-normal
   * http://opengameart.org/content/city-background-repetitive-3
   * http://opengameart.org/content/running-and-jumping-kid-sprite-sheets
+  * https://freesound.org/people/UncleSigmund/sounds/245766/
 
 
 * Attribution 2.0 Generic (CC BY 2.0)
