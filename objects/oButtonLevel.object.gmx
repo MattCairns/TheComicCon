@@ -70,6 +70,7 @@
             <string>///Button control
 for(i = 1; i &lt; global.buttonArray[0]; i++) {
     if(self.id == global.buttonArray[i].id) {
+        global.roomRestart = true;
         room_goto(roomArray[i]);
         break;
     }
