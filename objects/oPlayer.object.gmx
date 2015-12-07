@@ -58,7 +58,8 @@ if room==rLevel01 room = rLevel02;
 if room==rLevel02 room = rLevel03;
 if room==rLevel03 room = rLevel04;
 if room==rLevel04 room = rLevel05;
-if room==rLevel05 room = rLevel05;
+if room==rLevel05 room = rLevel06;
+if room==rLevel06 room = rMainMenu;
 </string>
           </argument>
         </arguments>
