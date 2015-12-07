@@ -8,6 +8,7 @@
     <sound>sound\soundFootstep</sound>
     <sound>sound\soundMusic0</sound>
     <sound>sound\soundButtonPress</sound>
+    <sound>sound\soundFirework</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sWall</sprite>
