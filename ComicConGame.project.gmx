@@ -46,6 +46,7 @@
   <backgrounds name="background">
     <background>background\backgroundOutdoors</background>
     <background>background\menuBackground</background>
+    <background>background\creditBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
