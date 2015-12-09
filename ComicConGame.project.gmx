@@ -47,6 +47,8 @@
     <background>background\backgroundOutdoors</background>
     <background>background\menuBackground</background>
     <background>background\creditBackground</background>
+    <background>background\backgroundLevel01</background>
+    <background>background\backgroundLevel04</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
